@@ -1,0 +1,454 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EBEDEF;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
+/*-----------------------------------------------the header style-----------------------------------------------------------*/
+
+header {
+    position: sticky;
+    width: 1920px;
+    height: 70px;
+    background: #000;
+}
+
+.headcontainer {
+    position: relative;
+    width: 1700px;
+    height: 100px;
+}
+
+.headcontainer .logoplaceholder {
+    position: relative;
+    width: 100px;
+    height: 60px;
+    background: #000;
+    float: left;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.headcontainer .logoplaceholder .fa-book {
+    font-size: 60px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.headcontainer .logoplaceholder .fa-book:hover {
+    cursor: pointer;
+    color: #944;
+}
+
+.headcontainer .titletext {
+    position: relative;
+    width: 200px;
+    height: 60px;
+    background: #000;
+    float: left;
+    margin-left: 2px;
+}
+
+.headcontainer .titletext h2 {
+    color: #fff;
+}
+
+
+/*menu placeholder1 stylesheet - begin*/
+
+.headcontainer .menu-place1 {
+    position: relative;
+    width: 130px;
+    height: 40px;
+    background: #000;
+    float: left;
+    margin-left: 100px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.headcontainer .menu-place1:hover {
+    background: #666;
+    cursor: pointer;
+}
+
+.headcontainer .menu-place1 .menu-content1 {
+    position: relative;
+    width: 130px;
+    float: left;
+    height: 40px;
+}
+
+.headcontainer .menu-place1 .menu-content1 .homeicon {
+    margin-left: 10px;
+    margin-top: 4px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.headcontainer .menu-place1 .menu-content1 .hometext {
+    margin-top: -55px;
+    margin-left: 55px;
+}
+
+.headcontainer .menu-place1 .menu-content1 .hometext h4 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.headcontainer .menu-place1 .menu-content1 .hometext h4 a {
+    color: #fff;
+}
+
+.headcontainer .menu-place1 .menu-content1 .hometext h4 a:link {
+    text-decoration: none;
+}
+
+
+/*menu placeholder1 stylesheet - begin*/
+
+
+/*menu placeholder2 stylesheet - begin*/
+
+.headcontainer .menu-place2 {
+    position: relative;
+    width: 137px;
+    height: 40px;
+    background: #000;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.headcontainer .menu-place2:hover {
+    background: #666;
+    cursor: pointer;
+}
+
+.headcontainer .menu-place2 .menu-content2 {
+    position: relative;
+    width: 130px;
+    float: left;
+    height: 40px;
+}
+
+.headcontainer .menu-place2 .menu-content2 .icon2 {
+    margin-left: 15px;
+    margin-top: 4px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.headcontainer .menu-place2 .menu-content2 .text2 {
+    margin-top: -55px;
+    margin-left: 50px;
+}
+
+.headcontainer .menu-place2 .menu-content2 .text2 h4 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.headcontainer .menu-place2 .menu-content2 .text2 h4 a {
+    color: #fff;
+}
+
+.headcontainer .menu-place2 .menu-content2 .text2 h4 a:link {
+    text-decoration: none;
+}
+
+
+/*menu placeholder2 stylesheet - begin*/
+
+
+/*menu placeholder3 stylesheet - begin*/
+
+.headcontainer .menu-place3 {
+    position: relative;
+    width: 137px;
+    height: 40px;
+    background: #000;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.headcontainer .menu-place3:hover {
+    background: #666;
+    cursor: pointer;
+}
+
+.headcontainer .menu-place3 .menu-content3 {
+    position: relative;
+    width: 130px;
+    float: left;
+    height: 40px;
+}
+
+.headcontainer .menu-place3 .menu-content3 .icon3 {
+    margin-left: 15px;
+    margin-top: 4px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.headcontainer .menu-place3 .menu-content3 .text3 {
+    margin-top: -55px;
+    margin-left: 50px;
+}
+
+.headcontainer .menu-place3 .menu-content3 .text3 h4 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.headcontainer .menu-place3 .menu-content3 .text3 h4 a {
+    color: #fff;
+}
+
+.headcontainer .menu-place3 .menu-content3 .text3 h4 a:link {
+    text-decoration: none;
+}
+
+
+/*menu placeholder3 stylesheet - begin*/
+
+
+/*menu placeholder4 stylesheet - begin*/
+
+.headcontainer .menu-place4 {
+    position: relative;
+    width: 137px;
+    height: 40px;
+    background: #4544f5;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.headcontainer .menu-place4:hover {
+    background: #369159;
+    cursor: pointer;
+}
+
+.headcontainer .menu-place4 .menu-content2 {
+    position: relative;
+    width: 130px;
+    float: left;
+    height: 40px;
+}
+
+.headcontainer .menu-place4 .menu-content4 .icon4 {
+    margin-left: 15px;
+    margin-top: 4px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.headcontainer .menu-place4 .menu-content4 .text4 {
+    margin-top: -55px;
+    margin-left: 50px;
+}
+
+.headcontainer .menu-place4 .menu-content4 .text4 h4 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.headcontainer .menu-place4 .menu-content4 .text4 h4 a {
+    color: #fff;
+}
+
+.headcontainer .menu-place4 .menu-content4 .text4 h4 a:link {
+    text-decoration: none;
+}
+
+
+/*menu placeholder4 stylesheet - end*/
+
+
+/*menu placeholder5 stylesheet - begin*/
+
+.headcontainer .menu-place5 {
+    position: relative;
+    width: 137px;
+    height: 40px;
+    background: #000;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.headcontainer .menu-place5:hover {
+    background: #666;
+    cursor: pointer;
+}
+
+.headcontainer .menu-place5 .menu-content5 {
+    position: relative;
+    width: 130px;
+    float: left;
+    height: 40px;
+}
+
+.headcontainer .menu-place5 .menu-content5 .icon5 {
+    margin-left: 15px;
+    margin-top: 4px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.headcontainer .menu-place5 .menu-content5 .text5 {
+    margin-top: -55px;
+    margin-left: 50px;
+}
+
+.headcontainer .menu-place5 .menu-content5 .text5 h4 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.headcontainer .menu-place5 .menu-content5 .text5 h4 a {
+    color: #fff;
+}
+
+.headcontainer .menu-place5 .menu-content5 .text5 h4 a:link {
+    text-decoration: none;
+}
+
+
+/*menu placeholder5 stylesheet - end*/
+
+
+/*menu placeholder5 stylesheet - begin*/
+
+.headcontainer .menu-place6 {
+    position: relative;
+    width: 137px;
+    height: 40px;
+    background: #C0392B;
+    float: left;
+    margin-left: 400px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.headcontainer .menu-place6:hover {
+    background: #666;
+    cursor: pointer;
+}
+
+.headcontainer .menu-place6 .menu-content6 {
+    position: relative;
+    width: 130px;
+    float: left;
+    height: 40px;
+}
+
+.headcontainer .menu-place6 .menu-content6 .icon6 {
+    margin-left: 15px;
+    margin-top: 4px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.headcontainer .menu-place6 .menu-content6 .text6 {
+    margin-top: -55px;
+    margin-left: 50px;
+}
+
+.headcontainer .menu-place6 .menu-content6 .text6 h4 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.headcontainer .menu-place6 .menu-content6 .text6 h4 a {
+    color: #fff;
+}
+
+.headcontainer .menu-place6 .menu-content6 .text6 h4 a:link {
+    text-decoration: none;
+}
+
+
+/*menu placeholder5 stylesheet - end*/
+
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+.contact-title {
+    margin-top: 200px;
+    color: #000;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-title h1 {
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact-title h2 {
+    font-size: 16px;
+}
+
+.contact-form {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+form .form-control-submit {
+    background: #229954;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+form .form-control-submit:hover {
+    background-color: #2E86C1;
+    cursor: pointer;
+}
