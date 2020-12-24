@@ -9,9 +9,10 @@ body {
     padding: 40px;
     border-radius: 10px;
     margin-top: 60px;
-    box-shadow: 0 0px 50px #aaaaaa;
-    border-color: black;
+    /* box-shadow: 0 0px 50px #aaaaaa; */
+    border-color: #aaaaaa;
     border-width: 2px;
+    border-style: solid;
 }
 
 h1 {

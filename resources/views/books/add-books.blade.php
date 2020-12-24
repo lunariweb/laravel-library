@@ -10,10 +10,12 @@
     <title>Add Books</title>
 </head>
 <body>
-
+    <h1>Add New Books</h1>
+<div class="back-button-container">
+    <a href="{{route('admin-home')}}" class=" btn btn-success px-5">Back</a>
+</div>
     <div class="container">
-        <div class="form-group">
-            <h2>Add New Books</h2>
+        <div class="form-group ml-3 mr-3">
             <form action="{{route('add-books-submit')}}" method="post" class="add-books-form">
                 @csrf
                 <label>Book Name: </label>

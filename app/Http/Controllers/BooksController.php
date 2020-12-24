@@ -21,7 +21,7 @@ class BooksController extends Controller
 
     public function addBooksSubmit(BookCreateRequest $request) {
         Book::create($request->all());
-        return redirect(route('add-books'))->with('message', 'Book added succesfully!');
+        return redirect(route('admin-manage-books-view'))->with('message', 'Book added succesfully!');
 
     }
 

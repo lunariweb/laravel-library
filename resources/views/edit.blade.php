@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <a href="{{route('admin-manage-books-view')}}" class="btn btn-primary px-5 ml-4 mt-3">Back</a>
+    <a href="{{route('admin-manage-books-view')}}" class="btn btn-primary px-5 ml-4 mt-5">Back</a>
     <h1>Edit Books</h1>
 
 <div class="container">
