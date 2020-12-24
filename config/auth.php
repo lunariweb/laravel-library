@@ -58,6 +58,11 @@ return [
             'hash' => false,
         ],
 
+        'news' => [
+            'driver' => 'session',
+            'provider' => 'newss',
+        ],
+
 
     ],
 
@@ -87,6 +92,11 @@ return [
         'admins' => [
             'driver' => 'eloquent',
             'model' => \App\Models\admin::class,
+        ],
+
+        'newss' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\News::class,
         ],
 
         // 'users' => [
