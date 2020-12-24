@@ -36,7 +36,7 @@ Route::post('/home/requets/send', [App\Http\Controllers\SendEmailController::cla
 
 
 
-
+Route::get('/admin/test', [App\Http\Controllers\ManageUsersController::class, 'test']);
 
 Route::prefix('admin')->group(function () {
 
@@ -65,6 +65,21 @@ Route::prefix('admin')->group(function () {
     Route::get('/custompage', [App\Http\Controllers\AdminController::class, 'customPage'])->name('custom-page');
 
     Route::get('/addnews', [App\Http\Controllers\AdminController::class, 'addNews'])->name('admin-add-news');
+
+
+    // --------------------------------------------------------
+    Route::get('/manageusers', [App\Http\Controllers\ManageUsersController::class, 'index'])->name('admin-manage-users-view');
+
+    Route::get('/manageusers/action',[App\Http\Controllers\ManageUsersController::class, 'action'])->name('manage-users.action');
+
+    Route::get('/manageusers/{user}/edit', [App\Http\Controllers\ManageUsersController::class, 'edit'])->name('user.edit');
+
+    Route::patch('/manageusers/{user}/update', [App\Http\Controllers\ManageUsersController::class, 'update'])->name('user.update');
+
+    Route::get('/manageusers/{user}/deleteconfirm', [App\Http\Controllers\ManageUsersController::class, 'deleteConfirm'])->name('user.delete-confirm');
+
+    Route::delete('/manageusers/{user}/deletecofirm/delete', [App\Http\Controllers\ManageUsersController::class, 'deleteSubmit'])->name('user.delete.submit');
+
 
 
 

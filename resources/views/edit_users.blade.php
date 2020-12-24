@@ -18,24 +18,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset('/css/edit-page-style.css')}}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Edit Books</title>
+    <title>Edit Users</title>
 </head>
 <body>
 
-    <a href="{{route('admin-manage-books-view')}}" class="btn btn-primary px-5 ml-4 mt-5">Back</a>
-    <h1>Edit Books</h1>
+    <a href="{{route('admin-manage-users-view')}}" class="btn btn-primary px-5 ml-4 mt-5">Back</a>
+    <h1>Edit Users</h1>
 
 <div class="container">
     <div class="form-group">
-        <form action="{{route('book.update', $book->id)}}" method="post">
+        <form action="{{route('user.update', $user->id)}}" method="post">
             @csrf
             @method('patch')
-            <label>Book Name: </label>
-            <input type="text" name="book_name" value="{{$book->book_name}}" class="form-control mb-2">
-            <label>Book Type: </label>
-            <input type="text" name="book_type" value="{{$book->book_type}}" class="form-control mb-2">
-            <label>Book Link: </label>
-            <input type="text" name="book_link" value="{{$book->book_link}}" class="form-control mb-2">
+            <label>User Name: </label>
+            <input type="text" name="name" value="{{$user->name}}" class="form-control mb-2">
+            <label>User Email: </label>
+            <input type="text" name="email" value="{{$user->email}}" class="form-control mb-2">
+
             <input type="submit" value="Update" class="btn btn-primary">
         </form>
     </div>

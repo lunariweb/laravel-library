@@ -22,26 +22,26 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="{{asset('/css/delete-books-style.css')}}">
 
-    <title>Delete Book</title>
+    <title>Delete User</title>
 </head>
 <body>
 
     <div class="container">
 
     <h4>Delete</h4>
-    <h2>Book Name: {{$book->book_name}}</h2>
+    <h2>User Name: {{$user->name}}</h2>
 
     <div class="button-container">
         <div class="cancel-button">
-            <a href="{{route('admin-manage-books-view')}}" class="btn btn-primary">Cancel</a>
+            <a href="{{route('admin-manage-users-view')}}" class="btn btn-primary">Cancel</a>
 
         </div>
     <a class="btn btn-danger" onclick="event.preventDefault();
 
-                                            if(confirm('Are you sure you want to delete this Book?')){
-                                            document.getElementById('form-destroy-{{$book->id}}').submit()}">Delete</a>
+                                            if(confirm('Are you sure you want to delete this User?')){
+                                            document.getElementById('form-destroy-{{$user->id}}').submit()}">Delete</a>
 
-        <form style="display:none" id="{{'form-destroy-'.$book->id}}" method="post" action="{{route('book.delete.submit' ,$book->id)}}">
+        <form style="display:none" id="{{'form-destroy-'.$user->id}}" method="post" action="{{route('user.delete.submit' ,$user->id)}}">
             @csrf
             @method('delete')
         </form>

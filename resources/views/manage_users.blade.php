@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>Manage Books</title>
+  <title>Manage Users</title>
   {{-- live chat --}}
   <script>
     function initFreshChat() {
@@ -29,15 +29,12 @@
 
   <br />
   <div class="container box">
-   <h3 align="center">Search The Library</h3><br />
+   <h3 align="center">Registered Users</h3><br />
 
-<div class="add-books-button">
 
-    <a href="{{route('add-books')}}" class="btn btn-success">Add Book</a>
-</div>
 
    <div class="panel panel-default">
-    <div class="panel-heading">Search Book Data</div>
+    <div class="panel-heading">Search User Data</div>
     <div class="panel-body">
      <div class="form-group">
          {{--  --}}
@@ -49,17 +46,16 @@
 
         @endif
          {{--  --}}
-      <input type="text" name="search" id="search" class="form-control" placeholder="Search Books" />
+      <input type="text" name="search" id="search" class="form-control" placeholder="Search Users" />
      </div>
      <div class="table-responsive">
       <h3 align="center">Total Data : <span id="total_records"></span></h3>
       <table class="table table-striped table-bordered">
        <thead>
         <tr>
-         <th>Book ID</th>
-         <th>Book Name</th>
-         <th>Book Type</th>
-         <th>Book Link</th>
+         <th>User ID</th>
+         <th>User Name</th>
+         <th>User Email</th>
          <th>Edit</th>
          <th>Delete</th>
 
@@ -80,12 +76,12 @@
 <script>
 $(document).ready(function(){
 
- fetch_customer_data();
+ fetch_user_data();
 
- function fetch_customer_data(query = '')
+ function fetch_user_data(query = '')
  {
   $.ajax({
-   url:"{{ route('manage-books.action') }}",
+   url:"{{ route('manage-users.action') }}",
    method:'GET',
    data:{query:query},
    dataType:'json',
@@ -99,7 +95,7 @@ $(document).ready(function(){
 
  $(document).on('keyup', '#search', function(){
   var query = $(this).val();
-  fetch_customer_data(query);
+  fetch_user_data(query);
  });
 });
 </script>
