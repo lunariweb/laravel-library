@@ -55,8 +55,9 @@ class ManageBooksController extends Controller
          <td>#OLB_'.$row->id.'</td>
          <td>'.$row->book_name.'</td>
          <td>'.$row->book_type.'</td>
-         <td><a href="'.$row->book_link.'">Download</a></td>
-         <td><a href="/admin/managebooks/'.$row->id.'/edit">Edit</a></td>
+         <td>'.$row->book_link.'</td>
+         <td><a class="btn btn-primary" href="/admin/managebooks/'.$row->id.'/edit">Edit</a></td>
+         <td><a class="btn btn-danger" href="/admin/managebooks/'.$row->id.'/deleteconfirm">Delete</a></td>
         </tr>
         ';
        }
@@ -84,7 +85,17 @@ class ManageBooksController extends Controller
 
     public function update(Request $request, Book $book) {
         $book->update(['book_name'=>$request->book_name, 'book_type'=>$request->book_type, 'book_link'=>$request->book_link]);
-        return redirect(route('admin-manage-books-view'));
+        return redirect(route('admin-manage-books-view'))->with('message', 'Book Updated Succesfully');
 
+    }
+
+    public function deleteConfirm(Book $book) {
+        return view('delete', compact('book'));
+
+    }
+
+    public function deleteSubmit(Book $book) {
+        $book->delete($book);
+        return redirect(route('admin-manage-books-view'))->with('message', 'Book deleted succesfully');
     }
 }

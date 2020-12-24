@@ -54,6 +54,9 @@ Route::prefix('admin')->group(function () {
 
     Route::patch('/managebooks/{book}/update', [App\Http\Controllers\ManageBooksController::class, 'update'])->name('book.update');
 
+    Route::get('/managebooks/{book}/deleteconfirm', [App\Http\Controllers\ManageBooksController::class, 'deleteConfirm'])->name('book.delete-confirm');
+
+    Route::delete('/managebooks/{book}/deletecofirm/delete', [App\Http\Controllers\ManageBooksController::class, 'deleteSubmit'])->name('book.delete.submit');
 
     Route::get('/addbooks', [App\Http\Controllers\BooksController::class, 'addBooksForm'])->name('add-books');
 

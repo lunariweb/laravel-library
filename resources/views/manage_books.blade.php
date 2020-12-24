@@ -6,20 +6,38 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <link rel="stylesheet" href="{{asset('/css/search-page-style.css')}}">
  </head>
  <body>
      <div class="back-button">
         <a href="{{route('admin-home')}}" class="btn btn-primary btn-lg">Back</a>
      </div>
+
+
+
   <br />
   <div class="container box">
    <h3 align="center">Search The Library</h3><br />
+
+<div class="add-books-button">
+
+    <a href="{{route('add-books')}}" class="btn btn-success">Add Book</a>
+</div>
 
    <div class="panel panel-default">
     <div class="panel-heading">Search Book Data</div>
     <div class="panel-body">
      <div class="form-group">
+         {{--  --}}
+         @if(session()->has('message'))
+        <div class="alert alert-success">{{session()->get('message')}}</div>
+
+        @elseif(session()->has('error'))
+        <div class="align-center alert alert-danger">{{session()->get('message')}}</div>
+
+        @endif
+         {{--  --}}
       <input type="text" name="search" id="search" class="form-control" placeholder="Search Books" />
      </div>
      <div class="table-responsive">
@@ -32,6 +50,7 @@
          <th>Book Type</th>
          <th>Book Link</th>
          <th>Edit</th>
+         <th>Delete</th>
 
 
         </tr>

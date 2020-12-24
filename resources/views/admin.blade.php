@@ -49,7 +49,7 @@
 
         <div class="block-controler">
           <div class="button">
-            <h3><a href="delete-books.php">Manage Books</a></h3>
+            <h3><a href="{{route('admin-manage-books-view')}}">Manage Books</a></h3>
 
           </div>
 
