@@ -46,7 +46,13 @@ Route::prefix('admin')->group(function () {
 
     Route::get('/', [App\Http\Controllers\AdminController::class, 'index'])->name('admin-home');
 
-    Route::get('/managebooks', [App\Http\Controllers\AdminController::class, 'manageBooks'])->name('admin-manage-books');
+    Route::get('/managebooks', [App\Http\Controllers\ManageBooksController::class, 'index'])->name('admin-manage-books-view');
+
+    Route::get('/managebooks/action',[App\Http\Controllers\ManageBooksController::class, 'action'])->name('manage-books.action');
+
+    Route::get('/managebooks/{book}/edit', [App\Http\Controllers\ManageBooksController::class, 'edit'])->name('book.edit');
+
+    Route::patch('/managebooks/{book}/update', [App\Http\Controllers\ManageBooksController::class, 'update'])->name('book.update');
 
 
     Route::get('/addbooks', [App\Http\Controllers\BooksController::class, 'addBooksForm'])->name('add-books');

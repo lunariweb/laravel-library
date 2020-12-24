@@ -33,9 +33,9 @@ class AdminController extends Controller
         return view('admin', compact('num_users', 'num_books', 'num_admins'));
     }
 
-    public function manageBooks() {
-        return view('manage_books');
-    }
+    // public function manageBooks() {
+    //     return view('manage_books');
+    // }
 
     public function customPage() {
         return view('custom_page');

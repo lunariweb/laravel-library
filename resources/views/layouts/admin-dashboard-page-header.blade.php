@@ -51,7 +51,7 @@
 
          </div>
          <div class="text2">
-           <h4><a href="{{route('admin-manage-books')}}">Books</a></h4>
+           <h4><a href="{{route('admin-manage-books-view')}}">Books</a></h4>
          </div>
 
 
