@@ -10,6 +10,11 @@ use App\Models\Book;
 
 class BooksController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth:admin');
+    }
+
     public function addBooksForm() {
         return view('books.add-books');
     }

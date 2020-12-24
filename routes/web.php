@@ -46,13 +46,29 @@ Route::prefix('admin')->group(function () {
 
     Route::get('/', [App\Http\Controllers\AdminController::class, 'index'])->name('admin-home');
 
+    Route::get('/managebooks', [App\Http\Controllers\AdminController::class, 'manageBooks'])->name('admin-manage-books');
+
+
+    Route::get('/addbooks', [App\Http\Controllers\BooksController::class, 'addBooksForm'])->name('add-books');
+
+    Route::post('/addbooks', [App\Http\Controllers\BooksController::class, 'addBooksSubmit'])->name('add-books-submit');
+
+    Route::get('/custompage', [App\Http\Controllers\AdminController::class, 'customPage'])->name('custom-page');
+
+    Route::get('/addnews', [App\Http\Controllers\AdminController::class, 'addNews'])->name('admin-add-news');
+
+
+
+
 });
 
 
-Route::get('/addbooks', [App\Http\Controllers\BooksController::class, 'addBooksForm'])->name('add-books');
 
-Route::post('/addbooks', [App\Http\Controllers\BooksController::class, 'addBooksSubmit'])->name('add-books-submit');
 
 Route::get('/live_search', [App\Http\Controllers\LiveSearch::class, 'index'])->name('search-books');
 
 Route::get('/live_search/action',[App\Http\Controllers\LiveSearch::class, 'action'])->name('live_search.action');
+
+
+
+
