@@ -213,9 +213,13 @@
 
             </div>
 
-            <div class="ml-5 mb-4">
-                <h2>View more news from around the world.</h2>
-                <a href="{{asset('browsenews')}}" class="btn btn-success">View More</a>
+            <div id="news-btn-1" class="ml-5 mb-4 d-flex justify-content-center">
+                <h2 class="">View more news from around the world.</h2>
+
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <a href="{{asset('browsenews')}}" class="btn btn-success mb-5 ml-4 px-3">View More</a>
             </div>
         </section>
 
