@@ -12,6 +12,7 @@
 <body>
 
     <div class="total">
+        <a href="{{route('browse-news')}}" class="btn btn-success mb-2 px-3">Back</a>
         <div class="news-topic">
             <h1>{{$news->headline}}</h1>
         </div>

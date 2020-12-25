@@ -12,6 +12,7 @@
 </head>
 <body>
     <div class="all-news-holder">
+        <a href="/" class="btn btn-primary ml-3 mt-3 px-4">Back</a>
         <div class="news-row-1">
             <div class="news-1">
                 <h3>News 1 headline</h3>
