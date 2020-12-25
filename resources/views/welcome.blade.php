@@ -25,6 +25,10 @@
 
         <link rel="stylesheet" href="{{asset('/css/welcome-page-style.css')}}">
 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+        {{-- <script src="{{asset('/json/particlesjs-config.json')}}"></script> --}}
+
 
 
 
@@ -72,24 +76,147 @@
         </div>
 
 
-        <section class="container">
+
+
+        <section id="particles-js" class="particles">
             <div class="main-content">
 
+                <script type="text/javascript" src="{{asset('/js/particles.js')}}"></script>
+            <script type="text/javascript" src="{{asset('/js/app.js')}}"></script>
                 <div class="main-text">
                     <h1>Cloud Library</h1>
                 </div>
 
                 <div class="main-des">
                     <p>The best and most popular cloud library platform that was ever created.
-                        We provide one click book-downloads <br> and no annoying advertiesments. Also our cloud library platform comes with a latest news case feature <br> where we will provide you the latest day-today news from the most truste sources all over the world.</p>
+                        We provide one click book-downloads <br> and no annoying advertiesments. Also our cloud library platform comes with a latest news case feature <br> where we will provide you the latest day-today news from the most truste sources all over the world.
+                        <br>
+                        <br><span class="fa fa-check"></span> Thousands of books
+                        <br><span class="fa fa-check"></span> Day-today news feature
+                        <br><span class="fa fa-check"></span> On click downloads
+                        <br><span class="fa fa-check"></span> No advertiesments
+
+                    </p>
+                        <a href="#books" class="btn btn-primary btn-lg">More Details</a>
                 </div>
 
-                <div class="main-btn">
-
-                </div>
             </div>
 
 
+
+        </section>
+
+        <section id="books" class="mb-5">
+            <div class="lib-content">
+
+                <div class="bg-dark">
+                    <h1 class="text-white text-uppercase font-weight-bold ml-2">Latest Books</h1>
+                </div>
+
+                <div class="ml-5 d-flex position-relative ">
+                    <h3>Recently added books</h3><br>
+                    <p class="text-black ml-5 mt-3">
+                        <br><span class="fa fa-plus"></span> Harry Potter 1
+                        <br><span class="fa fa-plus"></span> Lord Of the Rings
+                        <br><span class="fa fa-plus"></span> Narnia
+                        <br><span class="fa fa-plus"></span> Sherlock Holmes
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                    </p>
+
+                    <p class="text-black ml-5 mt-3">
+                        <br><span class="fa fa-plus"></span> Harry Potter 1
+                        <br><span class="fa fa-plus"></span> Lord Of the Rings
+                        <br><span class="fa fa-plus"></span> Narnia
+                        <br><span class="fa fa-plus"></span> Sherlock Holmes
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                    </p>
+
+                    <p class="text-black ml-5 mt-3">
+                        <br><span class="fa fa-plus"></span> Harry Potter 1
+                        <br><span class="fa fa-plus"></span> Lord Of the Rings
+                        <br><span class="fa fa-plus"></span> Narnia
+                        <br><span class="fa fa-plus"></span> Sherlock Holmes
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                    </p>
+
+                    <p class="text-black ml-5 mt-3">
+                        <br><span class="fa fa-plus"></span> Harry Potter 1
+                        <br><span class="fa fa-plus"></span> Lord Of the Rings
+                        <br><span class="fa fa-plus"></span> Narnia
+                        <br><span class="fa fa-plus"></span> Sherlock Holmes
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                        <br><span class="fa fa-plus"></span> Famous Five
+                    </p>
+
+
+
+
+                </div>
+
+                <div class="ml-5">
+                    <h4>Haven't registered yet?, <a href="/register" class="text-decoration-non text-primary">Register</a> now and access full features of the best cloud library for free.</h4>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="bg-dark">
+                <h1 class="text-white text-uppercase font-weight-bold ml-2">Latest News</h1>
+
+            </div>
+            <div class="d-flex w-90 ml-xl-5 px-4">
+
+                <div class="w-35 mt-3 mb-3 p-5 bg-light ml-5 border border-dark rounded shadow">
+                    <h3 class="font-weight-bold">News Headline</h3>
+                    <img src="{{asset('/storage/images/books_library_shelves_138556_1920x1080.jpg')}}" alt="" width="400">                    <!--news image--->
+                    <p class="mt-2">Short description</p>
+                    <a href="" class="btn btn-primary">Read More</a>
+                </div>
+
+                <div class="w-35 mt-3 mb-3 p-5 bg-light ml-5 border border-dark rounded shadow">
+                    <h3 class="font-weight-bold">News Headline</h3>
+                    <img src="{{asset('/storage/images/books_library_shelves_138556_1920x1080.jpg')}}" alt="" width="400">                    <!--news image--->
+                    <p class="mt-2">Short description</p>
+                    <a href="" class="btn btn-primary">Read More</a>
+                </div>
+
+                <div class="w-35 mt-3 mb-3 p-5 bg-light ml-5 border border-dark rounded shadow">
+                    <h3 class="font-weight-bold">News Headline</h3>
+                    <img src="{{asset('/storage/images/books_library_shelves_138556_1920x1080.jpg')}}" alt="" width="400">                    <!--news image--->
+                    <p class="mt-2">Short description</p>
+                    <a href="" class="btn btn-primary">Read More</a>
+                </div>
+
+            </div>
+
+            <div class="ml-5 mb-4">
+                <h2>View more news from around the world.</h2>
+                <a href="{{asset('browsenews')}}" class="btn btn-success">View More</a>
+            </div>
         </section>
 
 
@@ -101,5 +228,17 @@
 
 
 
+
+
+
+
     </body>
+
+    @extends('layouts.footer')
+
+    @section('footer')
+
+
+    @endsection
+
 </html>

@@ -84,6 +84,10 @@ Route::prefix('admin')->group(function () {
 
     Route::post('/addnews', [App\Http\Controllers\AdminController::class, 'addNewsSubmit'])->name('admin-add-news-submit');
 
+    Route::get('/manageadmins', [App\Http\Controllers\ManageAdminsController::class, 'index'])->name('admin-manage-admins-view');
+
+    Route::get('/manageadmins/action',[App\Http\Controllers\ManageAdminsController::class, 'action'])->name('manage-admins.action');
+
 
 
 

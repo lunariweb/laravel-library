@@ -24,7 +24,7 @@
 
         <div class="block-controler">
           <div class="button">
-            <h3><a href="admin.php">Manage</a></h3>
+            <h3><a href="{{route('admin-manage-users-view')}}">Manage</a></h3>
 
           </div>
 
@@ -49,7 +49,7 @@
 
         <div class="block-controler">
           <div class="button">
-            <h3><a href="{{route('admin-manage-books-view')}}">Manage Books</a></h3>
+            <h3><a href="{{route('admin-manage-books-view')}}">Manage</a></h3>
 
           </div>
 
@@ -75,7 +75,7 @@
 
         <div class="block-controler">
           <div class="button">
-            <h3><a href="view-admins.php">View</a></h3>
+            <h3><a href="{{route('admin-manage-admins-view')}}">View</a></h3>
 
           </div>
 
