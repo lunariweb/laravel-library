@@ -467,13 +467,11 @@ header {
 
 .blockholder .block .block-text h3 {
     position: relative;
-    ;
     color: #fff;
     font-family: sans-serif;
     font-size: 20px;
     margin-top: -20px;
     text-align: center;
-    ;
 }
 
 .blockholder .block .block-controler {
@@ -514,6 +512,15 @@ header {
     font-size: 20px;
     margin-left: 60px;
     margin-top: 8px;
+    text-align: center;
+}
+
+.blockholder .block .block-controler .button h3 a {
+    color: #fff;
+}
+
+.blockholder .block .block-controler .button h3 a:link {
+    text-decoration: none;
 }
 
 .blockholder .block:nth-child(1) {

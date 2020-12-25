@@ -22,7 +22,7 @@
 
         <div class="block-controler">
           <div class="button">
-            <h3>Access</h3>
+            <h3><a class="btn alert-success" href="{{route('browse-news')}}">View</a></h3>
 
           </div>
 

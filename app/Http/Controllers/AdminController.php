@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Book;
 use App\Models\admin;
+use App\Models\News;
 
 class AdminController extends Controller
 {
@@ -41,7 +42,17 @@ class AdminController extends Controller
         return view('custom_page');
     }
 
-    public function addNews() {
-        return view('add_news');
+
+
+    public function addNewsView() {
+        return view('news.add-news');
+    }
+
+    public function addNewsSubmit(Request $request) {
+
+        News::addNewsSubmit($request->image);
+
+        News::create($request->all());
+        return redirect()->back()->with('message', 'News submitted succesfully!');
     }
 }

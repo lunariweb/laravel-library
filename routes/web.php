@@ -64,7 +64,7 @@ Route::prefix('admin')->group(function () {
 
     Route::get('/custompage', [App\Http\Controllers\AdminController::class, 'customPage'])->name('custom-page');
 
-    Route::get('/addnews', [App\Http\Controllers\AdminController::class, 'addNews'])->name('admin-add-news');
+
 
 
     // --------------------------------------------------------
@@ -80,6 +80,11 @@ Route::prefix('admin')->group(function () {
 
     Route::delete('/manageusers/{user}/deletecofirm/delete', [App\Http\Controllers\ManageUsersController::class, 'deleteSubmit'])->name('user.delete.submit');
 
+    Route::get('/addnews', [App\Http\Controllers\AdminController::class, 'addNewsView'])->name('admin-add-news-view');
+
+    Route::post('/addnews', [App\Http\Controllers\AdminController::class, 'addNewsSubmit'])->name('admin-add-news-submit');
+
+
 
 
 
@@ -94,13 +99,11 @@ Route::get('/live_search', [App\Http\Controllers\LiveSearch::class, 'index'])->n
 Route::get('/live_search/action',[App\Http\Controllers\LiveSearch::class, 'action'])->name('live_search.action');
 
 
-Route::get('/addnews', [App\Http\Controllers\NewsController::class, 'addNewsView'])->name('admin-add-news-view');
 
-Route::post('/addnews', [App\Http\Controllers\NewsController::class, 'addNewsSubmit'])->name('admin-add-news-submit');
 
 Route::get('/{news}/sample', [App\Http\Controllers\NewsController::class, 'sample']);
 
-Route::get('/browsenews', [App\Http\Controllers\NewsController::class, 'browseNews']);
+Route::get('/browsenews', [App\Http\Controllers\NewsController::class, 'browseNews'])->name('browse-news');
 
 Route::get('/browsenews/{news}/news', [App\Http\Controllers\NewsController::class, 'news']);
 

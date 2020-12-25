@@ -9,17 +9,7 @@ class NewsController extends Controller
 {
 
 
-    public function addNewsView() {
-        return view('news.add-news');
-    }
 
-    public function addNewsSubmit(Request $request) {
-
-        News::addNewsSubmit($request->image);
-
-        News::create($request->all());
-        return redirect()->back()->with('message', 'News submitted succesfully!');
-    }
 
     public function sample(News $news) {
         return view('sample', compact('news'));

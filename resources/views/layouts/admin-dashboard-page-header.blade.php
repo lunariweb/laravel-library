@@ -27,6 +27,9 @@
 
     <link rel="stylesheet" type="text/css" href="{{asset('/css/admin-dashboard-style.css')}}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+
+
   </head>
 
   <header> <!--adding a header file and creating the navigation menu -->
@@ -90,7 +93,7 @@
 
          </div>
          <div class="text4">
-           <h4><a href="{{route('admin-add-news')}}">Add News</a></h4>
+           <h4><a href="{{route('admin-add-news-view')}}">Add News</a></h4>
          </div>
 
 

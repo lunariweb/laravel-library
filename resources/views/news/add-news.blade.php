@@ -13,7 +13,7 @@
 <body>
     <div class="container">
         <h1 class="text-center mt-xl-5">Add News</h1>
-        <a href="" class="btn btn-primary px-3 mb-2">Back</a>
+        <a href="{{route('admin-home')}}" class="btn btn-primary px-3 mb-2">Back</a>
         <div class="form-container border p-5">
             {{--  --}}
          @if(session()->has('message'))
