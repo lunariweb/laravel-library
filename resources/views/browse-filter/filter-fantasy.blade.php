@@ -4,6 +4,7 @@
 @section('header')
 
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
 
@@ -26,7 +27,7 @@
         <!-- menu of the library browser --->
 <!--- - to be completed in sprint 3----------------------------------------------------->
         <ul class="menu">
-          <li><a href="/home/browse" class="all">All</a></li>
+          <li><a href="#">All</a></li>
           <li><a href="#">Fantasy</a></li>
           <li><a href="#">Novels</a></li>
           <li><a href="#">Comics</a></li>
