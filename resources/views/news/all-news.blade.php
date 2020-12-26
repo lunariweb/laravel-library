@@ -24,7 +24,7 @@
  </head>
  <body>
      <div class="back-button">
-        <a href="{{route('admin-home')}}" class="btn btn-primary btn-lg">Back</a>
+        <a href="{{route('browse-news')}}" class="btn btn-success btn-lg mt-4 ml-4 py-2 px-4">Back</a>
      </div>
 
 

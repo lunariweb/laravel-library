@@ -52,12 +52,13 @@ class ManageNewsController extends Controller
 
 
             <td>
-            <div class="w-75 p-xl-5 mb-2 border-top border-bottom border-dark">    <h1>'.$row->headline.'</h1>
+            <div class="w-75 p-xl-5 mb-2 border-top border-bottom border-dark">
+                <h1 class="font-weight-bold mb-4">'.$row->headline.'</h1>
                 <h2>'.$row->author.'</h2>
-                <h2>'.$row->source.'</h2>
-                <img src="/storage/images/'.$row->image.'" width="600" class=" img-fluid">
-                <p class="mt-3">'.$row->shortdes.'</p>
-                <a href="/browsenews/'.$row->id.'/news" class="btn btn-success">More Details</a>
+                <h3>'.$row->source.'</h3>
+                <img src="/storage/images/'.$row->image.'" width="600" class=" img-fluid mb-3 rounded">
+                <h3 class="mt-3 mb-3">'.$row->shortdes.'</h3>
+                <a href="/browsenews/'.$row->id.'/news" class="btn btn-primary p-2 px-4"><h3 class="mt-1">Read More</h3></a>
 
 
                 </div>
