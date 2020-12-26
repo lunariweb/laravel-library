@@ -188,27 +188,27 @@
                 <h1 class="text-white text-uppercase font-weight-bold ml-2">Latest News</h1>
 
             </div>
-            <div class="d-flex w-90 ml-xl-5 px-4">
+            <div class="d-flex w-80 ml-xl-0 mr-2 px-4">
 
                 <div class="w-35 mt-3 mb-3 p-5 bg-light ml-5 border border-dark rounded shadow">
-                    <h3 class="font-weight-bold">News Headline</h3>
-                    <img src="{{asset('/storage/images/books_library_shelves_138556_1920x1080.jpg')}}" alt="" width="400">                    <!--news image--->
-                    <p class="mt-2">Short description</p>
-                    <a href="" class="btn btn-primary">Read More</a>
+                    <h3 class="font-weight-bold">Coronavirus: France finds first case of new variant</h3>
+                    <img src="{{asset('/storage/images/_116262541_mediaitem116262539.jpg')}}" alt="" width="400">                    <!--news image--->
+                    <p class="mt-2">France has confirmed the first case in the country of the more contagious coronavirus variant recently identified in the UK</p>
+                    <a href="/browsenews/22/news" class="btn btn-primary">Read More</a>
                 </div>
 
                 <div class="w-35 mt-3 mb-3 p-5 bg-light ml-5 border border-dark rounded shadow">
-                    <h3 class="font-weight-bold">News Headline</h3>
-                    <img src="{{asset('/storage/images/books_library_shelves_138556_1920x1080.jpg')}}" alt="" width="400">                    <!--news image--->
-                    <p class="mt-2">Short description</p>
-                    <a href="" class="btn btn-primary">Read More</a>
+                    <h3 class="font-weight-bold">George Blake: Soviet Cold War spy and former MI6 officer dies in Russia</h3>
+                    <img src="{{asset('/storage/images/_116264569_pa-33915718.jpg')}}" alt="" width="400">                    <!--news image--->
+                    <p class="mt-2">George Blake, the former MI6 officer and one of the Cold War's most infamous double agents, has died aged 98, Russian media has reported.</p>
+                    <a href="/browsenews/21/news" class="btn btn-primary">Read More</a>
                 </div>
 
                 <div class="w-35 mt-3 mb-3 p-5 bg-light ml-5 border border-dark rounded shadow">
-                    <h3 class="font-weight-bold">News Headline</h3>
-                    <img src="{{asset('/storage/images/books_library_shelves_138556_1920x1080.jpg')}}" alt="" width="400">                    <!--news image--->
-                    <p class="mt-2">Short description</p>
-                    <a href="" class="btn btn-primary">Read More</a>
+                    <h3 class="font-weight-bold">737 Max: Air Canada flight in unscheduled landing after engine issue</h3>
+                    <img src="{{asset('/storage/images/_116163439_hi064851050-1.jpg')}}" alt="" width="400">                    <!--news image--->
+                    <p class="mt-2">An Air Canada Boeing 737 Max aircraft has been forced to make an unscheduled landing after developing engine trouble, the airline has said. </p>
+                    <a href="/browsenews/20/news" class="btn btn-primary">Read More</a>
                 </div>
 
             </div>
@@ -242,6 +242,11 @@
 
     @section('footer')
 
+
+    @endsection
+
+    @extends('layouts.pre-loader')
+    @section('pre-loader')
 
     @endsection
 

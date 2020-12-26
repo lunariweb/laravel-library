@@ -110,4 +110,9 @@
 
  @endsection
 
+ @extends('layouts.pre-loader')
+    @section('pre-loader')
+
+    @endsection
+
 </html>

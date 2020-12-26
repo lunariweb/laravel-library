@@ -41,6 +41,10 @@
     </div>
 </div>
 
+@extends('layouts.pre-loader')
+    @section('pre-loader')
+
+    @endsection
 
 </body>
 </html>

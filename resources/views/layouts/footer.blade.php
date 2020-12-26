@@ -25,10 +25,10 @@
                 <div class="col-md-4 col-sm-4 col-xs-6">
                     <ul class="fh5co-footer-links">
                         <h3 >Links</h3>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Cookies</a></li>
+                        <li><a href="{{route('browse-news')}}">News</a></li>
+                        <li><a href="https://www.termsfeed.com/live/0fb2ab2e-5f27-47fc-9c01-9a52d389e1eb">Privacy Policy</a></li>
+                        <li><a href="https://www.termsfeed.com/live/043cbffa-ff89-43f4-9d02-a4bfae3fcc55">Terms & Conditions</a></li>
+                        <li><a href="https://www.privacypolicies.com/live/49001a72-b3f6-4a37-bdad-69de5afc1db9">Cookies</a></li>
 
 
                     </ul>

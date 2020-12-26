@@ -111,3 +111,4 @@ Route::get('/browsenews', [App\Http\Controllers\NewsController::class, 'browseNe
 
 Route::get('/browsenews/{news}/news', [App\Http\Controllers\NewsController::class, 'news']);
 
+Route::get('/test', [App\Http\Controllers\NewsController::class, 'test'])->name('test');
