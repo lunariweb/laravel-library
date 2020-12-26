@@ -112,3 +112,10 @@ Route::get('/browsenews', [App\Http\Controllers\NewsController::class, 'browseNe
 Route::get('/browsenews/{news}/news', [App\Http\Controllers\NewsController::class, 'news']);
 
 Route::get('/test', [App\Http\Controllers\NewsController::class, 'test'])->name('test');
+
+
+
+
+Route::get('/allnews', [App\Http\Controllers\ManageNewsController::class, 'index'])->name('all-news-view');
+
+Route::get('/allnews/action',[App\Http\Controllers\ManageNewsController::class, 'action'])->name('all-news.action');

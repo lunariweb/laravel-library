@@ -14,6 +14,7 @@ class News extends Model
         'author',
         'source',
         'image',
+        'shortdes',
         'description',
 
     ];

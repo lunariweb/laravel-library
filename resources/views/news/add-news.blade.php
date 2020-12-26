@@ -55,7 +55,10 @@
                 <input name="source" type="text" class="form-control mb-2" placeholder="Enter the source">
 
                 <label>Images: </label>
-                <input name="image" type="file" class="form-control">
+                <input name="image" type="file" class="form-control mb-4">
+
+                <label>Short Description (For All News View): </label>
+                <input name="shortdes" type="text" class="form-control mb-2" placeholder="Enter a short description">
 
                 <label>News Description: </label>
                 <textarea name="description" cols="30" rows="10" wrap="hard" class="form-control mb-4 overflow-auto" placeholder="Describe the news"></textarea>

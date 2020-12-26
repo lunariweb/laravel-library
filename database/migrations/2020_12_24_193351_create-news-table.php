@@ -19,6 +19,7 @@ class CreateNewsTable extends Migration
             $table->string('author');
             $table->string('source');
             $table->string('image')->nullable();
+            $table->string('shortdes');
             $table->string('description');
             $table->rememberToken();
             $table->timestamps();
