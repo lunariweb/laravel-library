@@ -11,7 +11,7 @@
     <!-- navigation of the library (not the main navigation ---->
 
     <nav>
-        <h1>All</h1>
+        <h1>Comics</h1>
         <a href="#" class="logo">
           {{-- <img src="#" alt=""> --}}
         </a>
@@ -27,10 +27,10 @@
         <!-- menu of the library browser --->
 <!--- - to be completed in sprint 3----------------------------------------------------->
         <ul class="menu">
-          <li><a href="#" class="all">All</a></li>
+          <li><a href="{{route('user-browse')}}" class="all">All</a></li>
           <li><a href="{{route('user-browse-fantasy')}}">Fantasy</a></li>
           <li><a href="{{route('user-browse-novels')}}">Novels</a></li>
-          <li><a href="{{route('user-browse-comics')}}">Comics</a></li>
+          <li><a href="#">Comics</a></li>
           <li><a href="{{route('user-browse-adventure')}}">Adventure</a></li>
 
         </ul>

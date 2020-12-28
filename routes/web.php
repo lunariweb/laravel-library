@@ -23,6 +23,14 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/home/browse', [App\Http\Controllers\HomeController::class, 'browsePage'])->name('user-browse');
 
+Route::get('/home/browse/fantasy', [App\Http\Controllers\HomeController::class, 'browseFantasy'])->name('user-browse-fantasy');
+
+Route::get('/home/browse/novels', [App\Http\Controllers\HomeController::class, 'browseNovels'])->name('user-browse-novels');
+
+Route::get('/home/browse/comic', [App\Http\Controllers\HomeController::class, 'browseComics'])->name('user-browse-comics');
+
+Route::get('/home/browse/adventure', [App\Http\Controllers\HomeController::class, 'browseAdventure'])->name('user-browse-adventure');
+
 Route::get('/home/request', [App\Http\Controllers\SendEmailController::class, 'requestBooks'])->name('user-request-books');
 
 Route::get('/home/contact', [App\Http\Controllers\ContactSendEmailController::class, 'contactPage'])->name('user-contact-admin');

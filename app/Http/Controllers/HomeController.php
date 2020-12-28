@@ -31,6 +31,22 @@ class HomeController extends Controller
         return view('browse');
     }
 
+    public function browseFantasy() {
+        return view('browseFantasy');
+    }
+
+    public function browseNovels() {
+        return view('browseNovels');
+    }
+
+    public function browseComics() {
+        return view('browseComics');
+    }
+
+    public function browseAdventure() {
+        return view('browseAdventure');
+    }
+
 
 
     public function contactPage() {
