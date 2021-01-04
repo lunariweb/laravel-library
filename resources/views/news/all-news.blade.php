@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>Manage Users</title>
+  <title>Search News</title>
   {{-- live chat --}}
   <script>
     function initFreshChat() {
@@ -31,12 +31,12 @@
 
   <br />
   <div class="container box">
-   <h3 align="center">Registered Users</h3><br />
+   <h3 align="center">All News</h3><br />
 
 
 
    <div class="panel panel-default">
-    <div class="panel-heading">Search User Data</div>
+    <div class="panel-heading">Search News Data</div>
     <div class="panel-body">
      <div class="form-group">
          {{--  --}}
@@ -48,7 +48,7 @@
 
         @endif
          {{--  --}}
-      <input type="text" name="search" id="search" class="form-control" placeholder="Search Users" />
+      <input type="text" name="search" id="search" class="form-control" placeholder="Search News" />
      </div>
      <div class="table-responsive">
       {{-- <h3 align="center">Total Data : <span id="total_records"></span></h3> --}}
