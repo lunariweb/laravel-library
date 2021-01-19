@@ -11,7 +11,7 @@ class LiveSearch extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth');  //middlware
 
     }
 
@@ -22,7 +22,7 @@ class LiveSearch extends Controller
      return view('live_search');
     }
 
-    function action(Request $request)
+    function action(Request $request)   //fetching the data from db to a page inside controller
     {
      if($request->ajax())
      {

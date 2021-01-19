@@ -11,7 +11,7 @@ use App\Models\admin;
 class AdminLoginController extends Controller
 {
     public function __construct() {
-        $this->middleware('guest:admin');
+        $this->middleware('guest:admin');  //middleware to secure the unauth
     }
 
     public function showLoginForm() {

@@ -56,4 +56,8 @@ class HomeController extends Controller
     public function settingsPage() {
         return view('user-settings');
     }
+
+    public function sidebar() {
+        return view('layouts.sidebar');
+    }
 }

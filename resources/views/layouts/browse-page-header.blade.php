@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
   <head>
     {{-- live chat --}}
-    <script>
+    {{-- <script>
         function initFreshChat() {
           window.fcWidget.init({
             token: "9d7688fe-86fa-4025-ab5f-de6c1f6addbf",
@@ -10,7 +10,7 @@
           });
         }
         function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
-      </script>
+      </script> --}}
     <!--- meta lines to make the programm resposive------------------->
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <!--- --------------------------------------------------------------------------------------->

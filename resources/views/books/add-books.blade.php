@@ -42,7 +42,7 @@
 
     </div>
 
-    @extends('layouts.pre-loader')
+    @extends('layouts.pre-loader')       {{--preloader --}}
     @section('pre-loader')
 
     @endsection

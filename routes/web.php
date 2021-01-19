@@ -127,3 +127,5 @@ Route::get('/test', [App\Http\Controllers\NewsController::class, 'test'])->name(
 Route::get('/allnews', [App\Http\Controllers\ManageNewsController::class, 'index'])->name('all-news-view');
 
 Route::get('/allnews/action',[App\Http\Controllers\ManageNewsController::class, 'action'])->name('all-news.action');
+
+Route::get('/sidebar',[App\Http\Controllers\HomeController::class, 'sidebar'])->name('sidebar');
