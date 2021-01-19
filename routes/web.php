@@ -70,7 +70,7 @@ Route::prefix('admin')->group(function () {
 
     Route::post('/addbooks', [App\Http\Controllers\BooksController::class, 'addBooksSubmit'])->name('add-books-submit');
 
-    Route::get('/custompage', [App\Http\Controllers\AdminController::class, 'customPage'])->name('custom-page');
+    Route::get('/settings', [App\Http\Controllers\AdminController::class, 'customPage'])->name('custom-page');
 
 
 

@@ -21,11 +21,19 @@
     <title>Add Books</title>
 </head>
 <body>
-    <h1>Add New Books</h1>
-<div class="back-button-container">
-    <a href="{{route('admin-home')}}" class=" btn btn-success px-5">Back</a>
-</div>
+
+    @extends('sidebars.adminSidebar_addbooks')
+
+    @section('sidebar')
+
+    @endsection
+
+<div class="addbooks-main">
+
+
+
     <div class="container">
+        <h1>Add New Books</h1>
         <div class="form-group ml-3 mr-3">
             <form action="{{route('add-books-submit')}}" method="post" class="add-books-form">
                 @csrf
@@ -36,11 +44,13 @@
                 <label>Book Link: </label>
                 <input type="text" name="book_link" placeholder="Enter book link" class="form-control mb-2" required>
 
-                <input type="submit" class="btn btn-primary" value="Create">
+                <input type="submit" class="btn" value="Create">
             </form>
         </div>
 
     </div>
+
+</div>
 
     @extends('layouts.pre-loader')       {{--preloader --}}
     @section('pre-loader')

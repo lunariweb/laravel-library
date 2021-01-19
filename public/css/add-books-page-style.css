@@ -1,28 +1,67 @@
-.container {
-    background-color: white;
+
+.addbooks-main {
+    margin-left: 35%;
+}
+
+
+.addbooks-main > .container {
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 30%;
     padding: 50px;
     border-radius: 10px;
-    margin-top: 10px;
+
     border-style: solid;
-    /* box-shadow: 0 0px 50px #aaaaaa; */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     border-color: #aaaaaa;
     border-width: 1px;
 }
 
-h1 {
+.addbooks-main > .container > h1 {
     font-weight: bold;
     margin-bottom: 10px;
     /* text-transform: uppercase; */
     /* background-color: #D5D8DC; */
     padding: 10px;
-    color: black;
+    color: white;
     /* margin-left: 0; */
-    border-radius: 10px;
     text-align: center;
-    padding-top: 60px;
+
+    text-transform: uppercase;
+}
+
+.addbooks-main > .container > div {
+    width: 600px;
+    color: #fff;
+
+}
+
+.addbooks-main > .container > div > form > input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.addbooks-main > .container > div > form > .btn {
+    width: 200;
+    height: 40px;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #fff;
+    transition: 0.5s;
+}
+
+.addbooks-main > .container > div > form > .btn:hover {
+    background: #4267B2;
 }
 
 .back-button-container {
     margin-top: 40px;
     margin-left: 19.25%;
 }
+
+

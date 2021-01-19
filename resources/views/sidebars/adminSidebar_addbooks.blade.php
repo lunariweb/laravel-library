@@ -58,7 +58,7 @@
             <div class="sidebar__contents">
                 {{-- pages --}}
 
-                <div class="sidebar__content active" onClick="window.location='/admin'">
+                <div class="sidebar__content" onClick="window.location='/admin'">
                     <i class="fa fa-home" aria-hidden="true"></i>
                     <h2>Home</h2>
                 </div>
@@ -68,7 +68,7 @@
                     <h2>Books</h2>
                 </div>
 
-                <div class="sidebar__content" onClick="window.location='/admin/addbooks'">
+                <div class="sidebar__content active" onClick="window.location='/admin/addbooks'">
                     <i class="fa fa-plus" aria-hidden="true"></i>
                     <h2>Add Books</h2>
                 </div>
