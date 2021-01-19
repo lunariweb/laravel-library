@@ -55,4 +55,8 @@ class AdminController extends Controller
         News::create($request->all());
         return redirect()->back()->with('message', 'News submitted succesfully!');
     }
+
+    public function sidebar() {
+        return view('sidebars.adminSidebar');
+    }
 }

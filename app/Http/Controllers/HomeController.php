@@ -58,6 +58,6 @@ class HomeController extends Controller
     }
 
     public function sidebar() {
-        return view('layouts.sidebar');
+        return view('sidebars.sidebar');
     }
 }
