@@ -11,12 +11,17 @@
     margin-top: 30%;
     padding: 50px;
     border-radius: 10px;
-
+    transition: 0.5s;
     border-style: solid;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.75);
     border-color: #aaaaaa;
     border-width: 1px;
 }
+
+.addbooks-main > .container:hover{
+    box-shadow: none;
+}
+
 
 .addbooks-main > .container > h1 {
     font-weight: bold;
@@ -38,10 +43,14 @@
 }
 
 .addbooks-main > .container > div > form > input {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.2);
     border: none;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
     color: white;
+    border-radius: 55px;
+}
+.addbooks-main > .container > div > form > input:focus {
+    background-color: rgba(0, 0, 0, 0.55);
 }
 
 .addbooks-main > .container > div > form > .btn {

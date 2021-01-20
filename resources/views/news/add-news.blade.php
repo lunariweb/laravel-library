@@ -19,6 +19,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="{{asset('css/add-news-style.css')}}">
     <title>Add News</title>
 
 
@@ -29,10 +30,18 @@
     </style>
 </head>
 <body>
+
+    @extends('sidebars.adminSidebar_addNews')
+
+    @section('sidebar')
+
+    @endsection
+
     <div class="container">
-        <h1 class="text-center mt-xl-5">Add News</h1>
-        <a href="{{route('admin-home')}}" class="btn btn-primary px-3 mb-2">Back</a>
-        <div class="form-container border p-5">
+
+        <div id="form-holder" class="form-container border px-4 mt-xl-5">
+            <h1 class="text-left mt-2 pt-3">Add News</h1>
+            <hr>
             {{--  --}}
          @if(session()->has('message'))
          <div class="alert alert-success">{{session()->get('message')}}</div>
@@ -63,7 +72,7 @@
                 <label>News Description: </label>
                 <textarea name="description" cols="30" rows="10" wrap="hard" class="form-control mb-4 overflow-auto" placeholder="Describe the news"></textarea>
 
-                <input type="submit" class="btn btn-success px-5" value="Submit News">
+                <input id="btn" type="submit" class="btn btn-success px-5" value="Submit News">
 
             </form>
         </div>

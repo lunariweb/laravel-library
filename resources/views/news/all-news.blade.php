@@ -3,7 +3,7 @@
  <head>
   <title>Search News</title>
   {{-- live chat --}}
-  <script>
+  {{-- <script>
     function initFreshChat() {
       window.fcWidget.init({
         token: "9d7688fe-86fa-4025-ab5f-de6c1f6addbf",
@@ -11,7 +11,7 @@
       });
     }
     function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
-  </script>
+  </script> --}}
 
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -23,6 +23,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
  </head>
  <body>
+
+
+
      <div class="back-button">
         <a href="{{route('browse-news')}}" class="btn btn-success btn-lg mt-4 ml-4 py-2 px-4">Back</a>
      </div>
@@ -73,16 +76,7 @@
    </div>
   </div>
 
-  <section class="main-section">
-    <div>
-        <table>
-            <tbody>
 
-            </tbody>
-        </table>
-    </div>
-
-  </section>
 
 
 
