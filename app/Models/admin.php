@@ -49,7 +49,7 @@ class Admin extends Authenticatable
     public static function adminProfileImgSubmit($image) {
         // $filename = $image->getClientOriginalName();
 
-        // auth()->news()->deleteOldImage();
+        // auth()->admin()->deleteOldImage();
 
         $image->storeAs('images', $image, 'public');
 
