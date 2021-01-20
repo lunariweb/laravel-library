@@ -8,6 +8,8 @@ use App\Models\Book;
 use App\Models\admin;
 use App\Models\News;
 
+use Illuminate\Support\Facades\Auth;
+
 class AdminController extends Controller
 {
     /**
@@ -38,8 +40,8 @@ class AdminController extends Controller
     //     return view('manage_books');
     // }
 
-    public function customPage() {
-        return view('custom_page');
+    public function customPage(admin $admin) {
+        return view('custom_page', compact('admin'));
     }
 
 
@@ -57,6 +59,24 @@ class AdminController extends Controller
     }
 
     public function sidebar() {
-        return view('sidebars.adminSidebar');
+        return view('sidebars.adminSidebar_settings');
     }
+
+    public function adminProfileImgSubmit(Request $request, admin $admin) {
+
+        $admin = admin::findOrFail(Auth::user('admin')->id);
+        $admin->name = $request->get('name');
+        $admin->email = $request->get('email');
+        $admin->password = $request->get('password');
+        admin::adminProfileImgSubmit($request->image);
+        $admin->image = $request->file('image');
+        $admin->job_title = $request->get('job_title');
+        $admin->save();
+
+
+        // admin::update($request->all());
+        return redirect()->back();
+    }
+
+
 }

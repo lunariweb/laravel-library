@@ -72,6 +72,8 @@ Route::prefix('admin')->group(function () {
 
     Route::get('/settings', [App\Http\Controllers\AdminController::class, 'customPage'])->name('custom-page');
 
+    Route::post('/settings', [App\Http\Controllers\AdminController::class, 'adminProfileImgSubmit'])->name('adminProfileImgSubmit');
+
 
 
 
