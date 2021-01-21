@@ -4,12 +4,115 @@
 }
 
 .admin__settings {
-    background-color: blueviolet;
-    width: 1200px;
-    margin-left: 25%;
+    background-color: #f1f5f1;
+    width: 100%;
+    margin-left: 17%;
     height: 100vh;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.admin__settings > .profile__pic > .profile__img {
+.admin__settings > .form-holder > form > .image__section > .profile__img {
     border-radius: 50%;
+    align-self: left;
+    padding: 10px;
+
 }
+
+.form-holder {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 1150px;
+    padding-left: 35px;
+    padding-top: none;
+    margin-top: 10%;
+    border-radius: 15px;
+    padding-bottom:80px;
+}
+
+input {
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 55px;
+    color: white;
+    font-weight: 600;
+}
+
+
+input:focus {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-width: 0px;
+}
+
+.image__section {
+
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid lightgray; */
+    width: 210px;
+    margin-top: 10px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    border-radius: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    color: black;
+}
+
+.image__section > img {
+    margin-left: 30px;
+}
+
+.image__section > input {
+    background-color: transparent;
+}
+
+.left__section {
+    margin-left: 50px;
+    position: relative;
+    float: left;
+    width: 550px;
+    /* border: 1px solid lightgray; */
+}
+
+.right__section {
+    position: relative;
+    float: right;
+    width: 550px;
+    /* border: 1px solid lightgray; */
+    height: 300px;
+}
+
+.bottom__section {
+    width: 550px;
+    height: 100px;
+    /* border: 1px solid lightgray; */
+    margin-left: 28%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom__section > input {
+    background: #FDFC47;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.bottom__section > input:hover{
+    background: rgba(0, 0, 0, 0.75)!important;
+}
+

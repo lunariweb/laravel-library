@@ -66,11 +66,17 @@ class AdminController extends Controller
 
         $admin = admin::findOrFail(Auth::user('admin')->id);
         $admin->name = $request->get('name');
-        $admin->email = $request->get('email');
-        $admin->password = $request->get('password');
+        // $admin->email = $request->get('email');
+        // $admin->password = $request->get('password');
         admin::adminProfileImgSubmit($request->image);
         $admin->image = $request->file('image');
-        $admin->job_title = $request->get('job_title');
+        // $admin->job_title = $request->get('job_title');
+        $admin->fullname = $request->get('fullname');
+        $admin->address = $request->get('address');
+        $admin->birthday = $request->get('birthday');
+        $admin->age = $request->get('age');
+        $admin->gender = $request->get('gender');
+        $admin->mobile = $request->get('mobile');
         $admin->save();
 
 
