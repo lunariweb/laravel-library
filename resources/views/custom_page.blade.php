@@ -28,6 +28,8 @@
                 <input type="file" name="image" class="image" required>
                 </div>
 
+                <div class="sections">
+
                 <div class="left__section">
                     <input type="text" name="name" value="{{Auth::user('admin')->name}}" class="name">
                     <input type="text" name="email" value="{{Auth::user('admin')->email}}" class="email" disabled>
@@ -45,6 +47,8 @@
                     <input type="number" name="mobile" placeholder="Your mobile number" class="mobile" value="{{Auth::user('admin')->mobile}}">
 
                 </div>
+                </div>
+                
                 <div class="bottom__section">
                     <input type="submit" value="submit">
 

@@ -1,14 +1,10 @@
-
 .addbooks-main {
     margin-left: 35%;
 }
 
-
 .addbooks-main > .container {
-    background: #00c6ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-top: 30%;
+    background-color: rgba(0, 0, 0, 0.75);
     padding: 50px;
     border-radius: 10px;
     transition: 0.5s;
@@ -18,10 +14,9 @@
     border-width: 1px;
 }
 
-.addbooks-main > .container:hover{
+.addbooks-main > .container:hover {
     box-shadow: none;
 }
-
 
 .addbooks-main > .container > h1 {
     font-weight: bold;
@@ -39,7 +34,6 @@
 .addbooks-main > .container > div {
     width: 600px;
     color: #fff;
-
 }
 
 .addbooks-main > .container > div > form > input {
@@ -56,21 +50,27 @@
 .addbooks-main > .container > div > form > .btn {
     width: 200;
     height: 40px;
-    background: #ED213A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ed213a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #93291e,
+        #ed213a
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #93291e,
+        #ed213a
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     color: #fff;
     transition: 0.5s;
 }
 
 .addbooks-main > .container > div > form > .btn:hover {
-    background: #4267B2;
+    background: #4267b2;
 }
 
 .back-button-container {
     margin-top: 40px;
     margin-left: 19.25%;
 }
-
-
