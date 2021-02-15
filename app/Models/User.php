@@ -20,6 +20,13 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'image',
+        'fullname',
+        'address',
+        'birthday',
+        'age',
+        'gender',
+        'mobile',
     ];
 
     /**
@@ -40,4 +47,16 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public static function userProfileImgSubmit($image) {
+        // $filename = $image->getClientOriginalName();
+
+        // auth()->admin()->deleteOldImage();
+
+        $image->storeAs('images', $image, 'public');
+
+
+    }
+
+    
 }

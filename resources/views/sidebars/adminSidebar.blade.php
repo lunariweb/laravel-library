@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/sidebar.css')}}">
-    <title>sidebar</title>
+    <title>Admin Dashboard</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
@@ -32,7 +32,7 @@
 
             {{-- username and avatar --}}
             <div class="sidebar__user">
-                <img src="{{ asset('storage/images/avatar.jpg') }}" alt="Avatar" class="avatar">
+                <img src="/storage/images/{{Auth::user('admin')->image}}" alt="Avatar" class="avatar">
                 <h2>{{Auth::user('admin')->name}}</h2>
 
                 {{-- logout button --}}

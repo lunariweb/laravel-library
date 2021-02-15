@@ -41,6 +41,8 @@ Route::get('/home/settings', [App\Http\Controllers\HomeController::class, 'setti
 
 Route::post('/home/requets/send', [App\Http\Controllers\SendEmailController::class, 'send'])->name('send-email');
 
+Route::post('/home/settings', [App\Http\Controllers\HomeController::class, 'userProfileImgSubmit'])->name('userProfileImgSubmit');
+
 
 
 
@@ -73,6 +75,7 @@ Route::prefix('admin')->group(function () {
     Route::get('/settings', [App\Http\Controllers\AdminController::class, 'customPage'])->name('custom-page');
 
     Route::post('/settings', [App\Http\Controllers\AdminController::class, 'adminProfileImgSubmit'])->name('adminProfileImgSubmit');
+
 
 
 
@@ -133,3 +136,6 @@ Route::get('/allnews/action',[App\Http\Controllers\ManageNewsController::class, 
 Route::get('/sidebar',[App\Http\Controllers\HomeController::class, 'sidebar'])->name('sidebar');
 
 Route::get('/admin/sidebar', [App\Http\Controllers\AdminController::class, 'sidebar'])->name('admin-sidebar');
+
+
+

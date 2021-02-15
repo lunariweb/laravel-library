@@ -16,7 +16,7 @@
       function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
     </script> --}}
 
-  <title> Admin Dashboard </title>
+  <!-- <title> Admin Dashboard </title> -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -138,6 +138,28 @@
       </div>
 
     </div>
+
+    <section class="social_media_options">
+      <div class="clsm">
+          <!-- icon -->
+          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+          <!-- name -->
+          <h2>Cloud Library Social Media</h2>
+          <!-- button -->
+          <button>Connect</button>
+      </div>
+
+      <div class="messenger">
+
+      <!-- icon -->
+      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          <!-- name -->
+          <h2>Cloud Library Messenger</h2>
+          <!-- button -->
+          <button onclick="document.location='https://cloud-library-messenger-cfa4f.web.app/'">Connect</button>
+
+      </div>
+    </section>
 
 
  @endsection
