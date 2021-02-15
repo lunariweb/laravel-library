@@ -119,6 +119,28 @@
 
     </div>
 
+    <section class="social_media_options">
+      <div class="clsm">
+          <!-- icon -->
+          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+          <!-- name -->
+          <h2>Cloud Library Social Media</h2>
+          <!-- button -->
+          <button>Connect</button>
+      </div>
+
+      <div class="messenger">
+
+      <!-- icon -->
+      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          <!-- name -->
+          <h2>Cloud Library Messenger</h2>
+          <!-- button -->
+          <button onclick="document.location='https://cloud-library-messenger-cfa4f.web.app/'">Connect</button>
+
+      </div>
+    </section>
+
     @endsection
 
     @extends('layouts.pre-loader')
