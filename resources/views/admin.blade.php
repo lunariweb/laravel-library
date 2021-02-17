@@ -144,7 +144,7 @@
           <!-- icon -->
           <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
           <!-- name -->
-          <h2>Cloud Library Social Media</h2>
+          <h2>Cloud Library Feedback System</h2>
           <!-- button -->
           <button>Connect</button>
       </div>

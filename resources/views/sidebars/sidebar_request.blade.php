@@ -33,7 +33,7 @@
 
             {{-- username and avatar --}}
             <div class="sidebar__user">
-                <img src="{{ asset('storage/images/avatar.jpg') }}" alt="Avatar" class="avatar">
+                <img src="/storage/images/{{Auth::user('User')->image}}" alt="Avatar" class="avatar">
                 <h2>{{Auth::user()->name}}</h2>
 
                 {{-- logout button --}}
