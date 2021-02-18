@@ -18,7 +18,9 @@
 
 
     <header class="header-main">
+
         <a href="/" class="btn btn-primary">Back</a>
+       
 
         {{-- <a href="{{route('all-news-view')}}">
         <div class="header-search">
@@ -56,26 +58,27 @@
                 <div class="item active">
                     <img src="{{asset('/storage/images/201130-donald-trump-2x1-jm-1222_a39937721a1f98d159b8dab55ccd9a7a.fit-2000w.jpg')}}" width="100%">
                     <div class="carousel-caption">
-                        <h3>Your Caption</h3>
-                        <p>news details</p>
-                        <a href="" class="btn btn-primary">Read More</a>
+                        <h3>Trump again calls for $2,000 checks as Covid aid bill remains in flux</h3>
+                        <p>BBC</p>
+                        <a href="/browsenews/19/news" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="{{asset('/storage/images/_116262541_mediaitem116262539.jpg')}}" width="100%">
                     <div class="carousel-caption">
-                        <h3>News Headline</h3>
-                        <p>News Details</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                        <h3>Coronavirus: France finds first case of new variant</h3>
+                        <p>BBC</p>
+                        <a href="/browsenews/22/news" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="{{asset('/storage/images/_116163439_hi064851050-1.jpg')}}" alt="New York" style="width:100%;">
                     <div class="carousel-caption">
-                      <h3>New York</h3>
-                      <p>We love the Big Apple!</p>
+                      <h3>737 Max: Air Canada flight in unscheduled landing after engine issue</h3>
+                      <p>BBC</p>
+                      <a href="/browsenews/20/news" class="btn btn-primary">Read More</a>
                     </div>
                   </div>
 
@@ -116,37 +119,64 @@
         <a href="/browsenews/21/news" class="btn btn-danger">Read More</a>
       </div>
       <div class="news">
-        <h2>news4</h2>
+        <h2>France</h2>
+        <img src="{{asset('/storage/images/opt/lampp/temp/phpTxFUfk')}}" width="100%">
+        <p>Coronavirus: France finds first case of new variant</p>
+        <a href="/browsenews/22/news" class="btn btn-danger">Read More</a>
       </div>
     </div>
 
     <div class="all-news1">
       <div class="news">
-        <h2>news1</h2>
+        <h2>Singapore</h2>
+        <img src="{{asset('/storage/images/opt/lampp/temp/phpW1tD3v')}}" width="100%">
+        <p>Singapore reveals Covid privacy data available to police</p>
+        <a href="/browsenews/24/news" class="btn btn-danger">Read More</a>
       </div>
       <div class="news">
-        <h2>news2</h2>
+        <h2>India</h2>
+        <img src="{{asset('/storage/images/opt/lampp/temp/phpcfpuRt')}}" width="100%">
+        <p>Covaxin: What was the rush to approve India's homegrown vaccine?</p>
+        <a href="/browsenews/25/news" class="btn btn-danger">Read More</a>
       </div>
       <div class="news">
-        <h2>news3</h2>
+        <h2>China</h2>
+        <img src="{{asset('/storage/images/opt/lampp/temp/php5rEf7v')}}" width="100%">
+        <p>NYSE does a U-turn on Chinese telecoms delistings</p>
+        <a href="/browsenews/26/news" class="btn btn-danger">Read More</a>
       </div>
       <div class="news">
-        <h2>news4</h2>
+        <h2>World</h2>
+        <img src="{{asset('/storage/images/opt/lampp/temp/phpt6uQNu')}}" width="100%">
+        <p>Supermarket websites feel the strain of new lockdown</p>
+        <a href="/browsenews/27/news" class="btn btn-danger">Read More</a>
       </div>
     </div>
 
     <div class="all-news2">
       <div class="news">
-        <h2>news1</h2>
+        <h2>Georgia</h2>
+        <img src="{{asset('/storage/images/tmp/phpbdAyjy')}}" width="100%">
+        <p>Georgia PM Giorgi Gakharia quits over order to detain opposition leader</p>
+        <a href="/browsenews/31/news" class="btn btn-danger">Read More</a>
       </div>
       <div class="news">
-        <h2>news2</h2>
+        <h2>Tech</h2>
+        <img src="{{asset('/storage/images/tmp/phpxnYDPv')}}" width="100%">
+        <p>Chromebooks overtake Macs in market share for first time</p>
+        <a href="/browsenews/32/news" class="btn btn-danger">Read More</a>
       </div>
       <div class="news">
-        <h2>news3</h2>
+        <h2>Tech</h2>
+        <img src="{{asset('/storage/images/tmp/phpH59Zav')}}" width="100%">
+        <p>Trustpilot removed 2.2 million bogus reviews in 2020</p>
+        <a href="/browsenews/33/news" class="btn btn-danger">Read More</a>
       </div>
       <div class="news">
-        <h2>news4</h2>
+        <h2>Tech</h2>
+        <img src="{{asset('/storage/images/tmp/phpmMO4zw')}}" width="100%">
+        <p>Australia news code: What’s this row with Facebook and Google all about?</p>
+        <a href="/browsenews/34/news" class="btn btn-danger">Read More</a>
       </div>
     </div>
 
