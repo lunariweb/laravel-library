@@ -69,7 +69,7 @@
 
         <div class="block-controler">
           <div class="button">
-            <h3>Details</h3>
+            <h3><a href="{{route('user-settings')}}">Details</a></h3>
 
           </div>
 
@@ -89,7 +89,7 @@
 
         <div class="block-controler">
           <div class="button">
-            <h3>Change</h3>
+            <h3><a href="{{route('user-settings')}}">Change</a></h3>
 
           </div>
 
@@ -109,7 +109,7 @@
 
         <div class="block-controler">
           <div class="button">
-            <h3>Customize</h3>
+            <h3><a href="{{route('user-settings')}}">Customize</a></h3>
 
           </div>
 
@@ -126,7 +126,7 @@
           <!-- name -->
           <h2>Cloud Library Feedback System</h2>
           <!-- button -->
-          <button>Connect</button>
+          <button onClick="document.location='https://localhost:3001/'">Connect</button>
       </div>
 
       <div class="messenger">
@@ -136,7 +136,7 @@
           <!-- name -->
           <h2>Cloud Library Messenger</h2>
           <!-- button -->
-          <button onclick="document.location='https://cloud-library-messenger-cfa4f.web.app/'">Connect</button>
+          <button onclick="document.location='https://localhost:3000/'">Connect</button>
 
       </div>
     </section>

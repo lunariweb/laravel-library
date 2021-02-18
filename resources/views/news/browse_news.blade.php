@@ -3,6 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
 
+    <link rel="stylesheet" href="{{ asset('/css/browsenews.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     {{-- live chat --}}
     <script>
@@ -19,12 +20,12 @@
     <header class="header-main">
         <a href="/" class="btn btn-primary">Back</a>
 
-        <a href="{{route('all-news-view')}}">
+        {{-- <a href="{{route('all-news-view')}}">
         <div class="header-search">
             <i class="fas fa-search">    Search</i>
 
         </div>
-        </a>
+        </a> --}}
 
     </header>
     <meta charset="utf-8">
@@ -97,16 +98,22 @@
 
     <div class="all-news">
       <div class="news">
-        <h2>news1</h2>
-        <img src="{{asset('/storage/images/201130-donald-trump-2x1-jm-1222_a39937721a1f98d159b8dab55ccd9a7a.fit-2000w.jpg')}}" width="100%">
-        <p>oisaudhfaiousdhfaposdadoushfasdofcasc asdoufhsa dpfuasdfpa dusfhpadufasdp fiouasd fpoadusf ouf dsaofhy</p>
-        <a href="#" class="btn btn-danger">Read More</a>
+        <h2>America</h2>
+        <img src="{{asset('/storage/images/opt/lampp/temp/phpbTuyIj')}}" width="100%">
+        <p>Trump again calls for $2,000 checks as Covid aid bill remains in flux</p>
+        <a href="/browsenews/19/news" class="btn btn-danger">Read More</a>
       </div>
       <div class="news">
-        <h2>news2</h2>
+        <h2>America</h2>
+        <img src="{{asset('/storage/images/opt/lampp/temp/phpqMnKtk')}}" width="100%">
+        <p>737 Max: Air Canada flight in unscheduled landing after engine issue</p>
+        <a href="/browsenews/20/news" class="btn btn-danger">Read More</a>
       </div>
       <div class="news">
-        <h2>news3</h2>
+        <h2>Russia</h2>
+        <img src="{{asset('/storage/images/opt/lampp/temp/phpv6v34k')}}" width="100%">
+        <p>George Blake: Soviet Cold War spy and former MI6 officer dies in Russia</p>
+        <a href="/browsenews/21/news" class="btn btn-danger">Read More</a>
       </div>
       <div class="news">
         <h2>news4</h2>

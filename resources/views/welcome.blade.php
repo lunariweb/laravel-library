@@ -54,7 +54,9 @@
                 <img src="{{asset('/storage/images/document.png')}}" width="50">
             </div>
 
-            <div class="w-50 mt-1 text-left ml-xl-3"><h2 class="text-white text-uppercase font-weight-bold">Cloud Library</h2></div>
+            <div class="w-50 mt-1 text-left ml-xl-3">
+                <h2 class="text-white text-uppercase font-weight-bold">Cloud Library</h2>
+            </div>
 
             <div class="relative d-flex mt-1 flex-row-reverse w-100">
 
