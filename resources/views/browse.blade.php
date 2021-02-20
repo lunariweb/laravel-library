@@ -95,6 +95,9 @@
     </div>
 
     <section id="books-list"> <!--- change this to books list later--------------------------------------->
+
+
+      {{-- category fantasy --}}
       <!--- box 1------------------------>
       <div class="books-box"> <!--- change this to books-box later----------------------------------------->
         <!-- book image----------------------->
@@ -260,6 +263,167 @@
 
     </div>
 
+    {{-- end fantasy --}}
+
+    {{-- start Novels --}}
+
+    <!--- box 11------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">2013</div>
+        <img src="{{asset('storage/covers/61ed40d6f4d27d0e0857815091ef0405c9e8d05f__300x0.jpeg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://www.smashwords.com/books/download/336262/1/latest/0/0/cactus-land.pdf">
+      Cactus Land
+
+    </a>
+
+    </div>
+
+    <!--- box 12------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">2013</div>
+        <img src="{{asset('storage/covers/d8f08c5bd111a3301c786525fa3fb70c9795b648__300x0.jpeg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://www.smashwords.com/books/download/315429/1/latest/0/0/laura-and-the-jaguar-prophecy.pdf">
+      Laura and The Jaguar Prophecy
+    </a>
+
+    </div>
+
+    <!--- box 12------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">2013</div>
+        <img src="{{asset('storage/covers/caec53248eebe9e147bc425cf231ae03d21e1ca7__300x0.jpeg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://www.smashwords.com/books/download/387293/8/latest/0/0/joseph-carl-spratt-and-the-great-white-fleet.epub">
+      Joseph Carl Spratt and the Great White Fleet
+
+    </a>
+
+    </div>
+
+    <!--- box 13------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">Golden</div>
+        <img src="{{asset('storage/covers/51-250x350.jpg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://www.pdfbooksworld.com/bibi/pre.html?book=51.epub">
+      The Call Of The Wild
+
+    </a>
+
+    </div>
+
+    <!--- box 14------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">1st Edition</div>
+        <img src="{{asset('storage/covers/53-250x350.jpg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://www.pdfbooksworld.com/bibi/pre.html?book=53.epub">
+      Les Miserables
+
+    </a>
+
+    </div>
+
+    <!--- box 15------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">1st Edition</div>
+        <img src="{{asset('storage/covers/59-250x350.jpg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://www.pdfbooksworld.com/bibi/pre.html?book=59.epub">
+      Peter and Wendy
+
+    </a>
+
+    </div>
+
+    {{-- end Novels --}}
+
+    {{-- start comics --}}
+
+    <!--- box 16------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">2020</div>
+        <img src="{{asset('storage/covers/QpdMNOp8gaX.jpg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://files.openpdfs.org/QpdMNOp8gaX.pdf#pdfjs.action=download">
+      Batman & Spiderman
+
+    </a>
+
+    </div>
+
+    <!--- box 17------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">#001</div>
+        <img src="{{asset('storage/covers/EBgjeXNkdoN.jpg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://pdfroom.com/preview/books/ultimate-spiderman-001/EBgjeXNkdoN#page=7&zoom=auto,-19,792">
+      Ultimate Spiderman
+
+    </a>
+
+    </div>
+
+     <!--- box 18------------------------>
+     <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">#002</div>
+        <img src="{{asset('storage/covers/zk2Aqbpy2PJ.jpg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://pdfroom.com/preview/books/ultimate-spiderman-002/zk2Aqbpy2PJ#page=1&zoom=auto,-19,792">
+      Ultimate Spiderman
+
+    </a>
+
+    </div>
+
+    {{-- end comics --}}
 
 
 

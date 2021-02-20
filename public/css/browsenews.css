@@ -7,47 +7,14 @@ body {
 }
 
 .header-main {
-    display: space-between;
-    /* background-color: chocolate; */
     height: 60px;
     background-color: black;
 }
 
-.header-main a {
+.header-main > a {
     height: 35px;
     margin-top: 10px;
     margin-left: 10px;
-}
-
-.header-main .header-search {
-    width: 200px;
-    height: 40px;
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    border-radius: 999px;
-    float: right;
-    margin-right: 20px;
-    transition: 0.5s;
-}
-
-.header-search > i {
-    display: block;
-    justify-content: center;
-    margin-top: 13px;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-}
-
-.header-search > i:hover {
-    cursor: pointer;
-}
-
-.header-search:hover {
-    background-color: red;
-    cursor: pointer;
 }
 
 .all-news {
@@ -71,7 +38,6 @@ body {
 }
 
 .news {
-    /* background-color: #124525; */
     background-color: lightgray;
     height: 420px;
     padding: 7px;
@@ -134,11 +100,6 @@ body {
 
 #myCarousel {
     height: 70vh;
-}
-
-body {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
 }
 
 .container1 > #myCarousel > .carousel-inner > .item > img {

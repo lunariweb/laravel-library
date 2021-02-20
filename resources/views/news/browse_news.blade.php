@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
 
-    <link rel="stylesheet" href="{{ asset('/css/browsenews.css') }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<!DOCTYPE html>            {{-- doctype -> document type, means our document is a html document --}}
+<html lang="en"> {{-- lang->language = english --}}
+  <head> {{-- contains the imports and the dependacies --}}
+
+    <link rel="stylesheet" href="{{ asset('/css/browsenews.css') }}"> {{-- linking the stylesheet --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" /> {{-- importing the icons from the font awesome library --}}
     {{-- live chat --}}
     <script>
         function initFreshChat() {
@@ -15,56 +15,51 @@
         }
         function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
       </script>
+      {{-- live chat end --}}
 
 
-    <header class="header-main">
+<title>News</title> {{-- tab name = title --}}
 
-        <a href="/" class="btn btn-primary">Back</a>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> {{-- importing bootstrap --}}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> {{-- importing bootstrap --}}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> {{-- importing jQuery for the slider in our app --}}
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> {{-- importing bootstrap --}}
+
+
+    <header class="header-main"> {{-- main top bar --}}
+
+        <a href="/" class="btn btn-primary">Back</a> {{-- hyperlink = a, href = location link, / = welcome page, btn btn-primary = bootstrap code, bootstrap primary = blue color --}}
        
-
-        {{-- <a href="{{route('all-news-view')}}">
-        <div class="header-search">
-            <i class="fas fa-search">    Search</i>
-
-        </div>
-        </a> --}}
-
     </header>
-    <meta charset="utf-8">
-    <title>News</title>
-    <link rel="stylesheet" href="{{asset('/css/browsenews.css')}}">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
 
-
+ 
 
   </head>
   <body>
 
-    <div class="container1">
-        {{-- <h2>Latest News</h2> --}}
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="container1">  {{-- classname = class --}}
+        
+        <div id="myCarousel" class="carousel slide" data-ride="carousel"> {{-- carousel  - slider --}}
 
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <ol class="carousel-indicators"> {{-- ol = item list --}}
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li> {{-- li=one item of the list  --}}
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
 
             <div class="carousel-inner">
 
-                <div class="item active">
+                <div class="item active"> {{-- slide 1 --}}
                     <img src="{{asset('/storage/images/201130-donald-trump-2x1-jm-1222_a39937721a1f98d159b8dab55ccd9a7a.fit-2000w.jpg')}}" width="100%">
                     <div class="carousel-caption">
                         <h3>Trump again calls for $2,000 checks as Covid aid bill remains in flux</h3>
                         <p>BBC</p>
-                        <a href="/browsenews/19/news" class="btn btn-primary">Read More</a>
+                        <a href="/browsenews/19/news" class="btn btn-primary">Read More</a> {{-- man damme --}}
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item"> {{-- slide 2 --}}
                     <img src="{{asset('/storage/images/_116262541_mediaitem116262539.jpg')}}" width="100%">
                     <div class="carousel-caption">
                         <h3>Coronavirus: France finds first case of new variant</h3>
@@ -73,7 +68,7 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item"> {{-- slide 3 --}}
                     <img src="{{asset('/storage/images/_116163439_hi064851050-1.jpg')}}" alt="New York" style="width:100%;">
                     <div class="carousel-caption">
                       <h3>737 Max: Air Canada flight in unscheduled landing after engine issue</h3>
@@ -84,10 +79,12 @@
 
 
             </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
+            {{-- slider buttons --}}
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> {{-- # link = anchor links --}}
+                <span class="glyphicon glyphicon-chevron-left"></span> {{-- span = icons add krnna, uses to add special styles --}}
                 <span class="sr-only">Previous</span>
               </a>
+
               <a class="right carousel-control" href="#myCarousel" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
                 <span class="sr-only">Next</span>
@@ -98,7 +95,7 @@
 
 
 
-
+    {{-- row 1  --}}
     <div class="all-news">
       <div class="news">
         <h2>America</h2>
@@ -106,18 +103,21 @@
         <p>Trump again calls for $2,000 checks as Covid aid bill remains in flux</p>
         <a href="/browsenews/19/news" class="btn btn-danger">Read More</a>
       </div>
+
       <div class="news">
         <h2>America</h2>
         <img src="{{asset('/storage/images/opt/lampp/temp/phpqMnKtk')}}" width="100%">
         <p>737 Max: Air Canada flight in unscheduled landing after engine issue</p>
         <a href="/browsenews/20/news" class="btn btn-danger">Read More</a>
       </div>
+
       <div class="news">
         <h2>Russia</h2>
         <img src="{{asset('/storage/images/opt/lampp/temp/phpv6v34k')}}" width="100%">
         <p>George Blake: Soviet Cold War spy and former MI6 officer dies in Russia</p>
         <a href="/browsenews/21/news" class="btn btn-danger">Read More</a>
       </div>
+      
       <div class="news">
         <h2>France</h2>
         <img src="{{asset('/storage/images/opt/lampp/temp/phpTxFUfk')}}" width="100%">
@@ -126,6 +126,7 @@
       </div>
     </div>
 
+      {{-- row 2 --}}
     <div class="all-news1">
       <div class="news">
         <h2>Singapore</h2>
@@ -153,6 +154,7 @@
       </div>
     </div>
 
+      {{-- row 3 --}}
     <div class="all-news2">
       <div class="news">
         <h2>Georgia</h2>
@@ -188,3 +190,5 @@
 
   </body>
 </html>
+
+
