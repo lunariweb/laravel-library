@@ -95,170 +95,94 @@
     </div>
 
     <section id="books-list"> <!--- change this to books list later--------------------------------------->
-      <!--- box 1------------------------>
-      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
-        <!-- book image----------------------->
-        <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">1997</div>
-          <img src="{{asset('storage/covers/philsophers-stone-uk-childrens-edition-600x0-c-default.jpg')}}">
+      {{-- start comics --}}
 
-        </div>
-
-      <!--- text ------------------------------------------------------------>
-      <a href="storage\pdfs\harry_potter_and_the_sorcerers_-_j.k._rowling.pdf" download>
-        Harry Potter And The Philsophers Stone
-      </a>
-
-      </div>
-
-      <!--- box 2------------------------>
-      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
-        <!-- book image----------------------->
-        <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">1998</div>
-          <img src="{{asset('storage/covers/chamber-of-secrets-uk-childrens-edition-2014-400x0-c-default.jpg')}}">
-
-        </div>
-
-      <!--- text ------------------------------------------------------------>
-      <a href="https://archive.org/download/1HarryPotterAndTheSorcerersStone/2-harry-potter-and-the-chamber-of-secrets.pdf">
-        Harry Potter And The Chamber Of Secrets
-      </a>
-
-
-
-
-
-
-      </div>
-
-      <!--- box 3------------------------>
-      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
-        <!-- book image----------------------->
-        <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">1999</div>
-          <img src="{{asset('storage/covers/prisoner-of-azkaban-uk-childrens-edition-2014-400x0-c-default.jpg')}}">
-
-        </div>
-
-      <!--- text ------------------------------------------------------------>
-      <a href="http://www.passuneb.com/elibrary/ebooks/HARRY%20POTTER%20AND%20THE%20PRISONER%20OF%20AZKABAN.pdf">
-        Harry Potter And The Prisoner Of Azkaban
-      </a>
-
-      </div>
-
-      <!--- box 4------------------------>
-      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
-        <!-- book image----------------------->
-        <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">2000</div>
-          <img src="{{asset('storage/covers/goblet-of-fire-adult-edition-301x0-c-default.jpg')}}">
-
-        </div>
-
-      <!--- text ------------------------------------------------------------>
-      <a href="https://mcqueenglish.weebly.com/uploads/3/2/2/6/32260387/harry_potter_and_the_goblet_of_fire.pdf">
-        Harry Potter And the Goblet Of Fire
-      </a>
-
-      </div>
-
-      <!--- box 5------------------------>
-      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
-        <!-- book image----------------------->
-        <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">2003</div>
-          <img src="{{asset('storage/covers/order-of-the-phoenix-us-childrens-edition-2013-600x0-c-default.jpg')}}">
-
-        </div>
-
-      <!--- text ------------------------------------------------------------>
-      <a href="https://www.missskirtich.com/uploads/2/3/3/7/23374820/5_-_harry_potter_and_the_order_of_the_phoenix_chapter_37.pdf">
-        Harry Potter And The Order Of The Phoenix
-      </a>
-
-      </div>
-
-      <!--- box 6------------------------>
-      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
-        <!-- book image----------------------->
-        <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">2005</div>
-          <img src="{{asset('storage/covers/half-blood-prince-adult-edition-311x0-c-default.jpg')}}">
-
-        </div>
-
-      <!--- text ------------------------------------------------------------>
-      <a href="https://englishfun.vn/wp-content/uploads/2018/04/6Harry-Potter-and-the-Half-Blood-Prince.pdf">
-        Harry Potter And The Half-Blood Prince
-      </a>
-
-      </div>
-
-      <!--- box 7------------------------>
-      <div class="books-box"> <!--- change this to books-box later----------------------------------------->
-        <!-- book image----------------------->
-        <div class="books-img"><!--- change this to books-img------------------------>
-          <div class="quality">2007</div>
-          <img src="{{asset('storage/covers/deathly-hallows-signature-edition-313x0-c-default.jpg')}}">
-
-        </div>
-
-      <!--- text ------------------------------------------------------------>
-      <a href="https://getfreestories.weebly.com/uploads/7/9/0/2/79020522/harry_potter_and_the_deathly_ha_-_j.k._rowling.pdf">
-        Harry Potter And The Deathly Hallows
-      </a>
-
-    </div>
-
-    <!--- box 8------------------------>
+    <!--- box 16------------------------>
     <div class="books-box"> <!--- change this to books-box later----------------------------------------->
       <!-- book image----------------------->
       <div class="books-img"><!--- change this to books-img------------------------>
-        <div class="quality">1st Edition</div>
-        <img src="{{asset('storage/covers/81NUBiDacoL.jpg')}}">
+        <div class="quality">2020</div>
+        <img src="{{asset('storage/covers/QpdMNOp8gaX.jpg')}}">
 
       </div>
 
     <!--- text ------------------------------------------------------------>
-    <a href="http://www.samizdat.qc.ca/arts/lit/PDFs/LionWitchWardrobe_CSL.pdf">
-      The Chronicles Of Narnia
+    <a href="https://files.openpdfs.org/QpdMNOp8gaX.pdf#pdfjs.action=download">
+      Batman & Spiderman
+
     </a>
 
     </div>
 
-    <!--- box 9------------------------>
+    <!--- box 17------------------------>
     <div class="books-box"> <!--- change this to books-box later----------------------------------------->
       <!-- book image----------------------->
       <div class="books-img"><!--- change this to books-img------------------------>
-        <div class="quality">1st Edition</div>
-        <img src="{{asset('storage/covers/51EstVXM1UL._SX331_BO1,204,203,200_.jpg')}}">
+        <div class="quality">#001</div>
+        <img src="{{asset('storage/covers/EBgjeXNkdoN.jpg')}}">
 
       </div>
 
     <!--- text ------------------------------------------------------------>
-    <a href="https://s3.amazonaws.com/scschoolfiles/112/j-r-r-tolkien-lord-of-the-rings-01-the-fellowship-of-the-ring-retail-pdf.pdf">
-      Lord Of The Ring
+    <a href="https://pdfroom.com/preview/books/ultimate-spiderman-001/EBgjeXNkdoN#page=7&zoom=auto,-19,792">
+      Ultimate Spiderman
+
     </a>
 
     </div>
 
-    <!--- box 10------------------------>
-    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+     <!--- box 18------------------------>
+     <div class="books-box"> <!--- change this to books-box later----------------------------------------->
       <!-- book image----------------------->
       <div class="books-img"><!--- change this to books-img------------------------>
-        <div class="quality">1st Edition</div>
-        <img src="{{asset('storage/covers/27cf91f605923223613909c7b9d2219f.jpg')}}">
+        <div class="quality">#002</div>
+        <img src="{{asset('storage/covers/zk2Aqbpy2PJ.jpg')}}">
 
       </div>
 
     <!--- text ------------------------------------------------------------>
-    <a href="https://www.readingsanctuary.com/wp-content/uploads/2018/10/The-Hobbit-byJ-RR-Tolkien-EBOOK.pdf">
-      The Hobbit
+    <a href="https://pdfroom.com/preview/books/ultimate-spiderman-002/zk2Aqbpy2PJ#page=1&zoom=auto,-19,792">
+      Ultimate Spiderman
+
     </a>
 
     </div>
+
+
+    <!--- box 19------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">Marvel</div>
+        <img src="{{asset('storage/covers/c5c59beb976e101520d2a673bb974060.jpg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://www.pdfdrive.com/download.pdf?id=164333576&h=80f706d8419f055ca7f0c92f412634d7&u=cache&ext=pdf">
+      Marvel Encyclopedia
+
+    </a>
+
+    </div>
+
+    <!--- box 20------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">Marvel</div>
+        <img src="{{asset('storage/covers/91Q5FQH5oIL.jpg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="http://images.abovethetreeline.com/ea/TW/pdfs/MARVEL-CATALOG-JAN-APR2016.pdf">
+      marvel's captain america
+
+    </a>
+
+    </div>
+    {{-- end comics --}}
 
 
 
@@ -268,12 +192,7 @@
 
     </section>
 
-  <!--- Buttons on the bottom of the browse page---------------------->
-  <div class="btns">
-    <a href="#">Previous</a>
-    <a href="#">Next</a>
-
-  </div>
+  
 
   <!--- Footer ------------------------------------------------------------------------------------------------------->
 

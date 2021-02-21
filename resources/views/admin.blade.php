@@ -146,7 +146,7 @@
           <!-- name -->
           <h2>Cloud Library Feedback System</h2>
           <!-- button -->
-          <button onClick="document.location='https://localhost:3001/'">Connect</button>
+          <button onClick="document.location='http://localhost:3001/'">Connect</button>
       </div>
 
       <div class="messenger">
@@ -156,7 +156,7 @@
           <!-- name -->
           <h2>Cloud Library Messenger</h2>
           <!-- button -->
-          <button onclick="document.location='https://localhost:3000/'">Connect</button>
+          <button onClick="document.location='http://localhost:3000/'">Connect</button>
 
       </div>
     </section>

@@ -268,12 +268,7 @@
 
     </section>
 
-  <!--- Buttons on the bottom of the browse page---------------------->
-  <div class="btns">
-    <a href="#">Previous</a>
-    <a href="#">Next</a>
-
-  </div>
+  
 
   <!--- Footer ------------------------------------------------------------------------------------------------------->
 

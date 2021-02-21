@@ -65,13 +65,6 @@ body {
     height: 62%;
     margin-bottom: 3px;
 }
-.header1 {
-    display: flex;
-}
-
-.all-news .news:nth-child(1) {
-    background-color: lightgray;
-}
 
 .carousel-caption {
     margin-top: 50px;
@@ -87,15 +80,6 @@ body {
 
 .carousel-caption a {
     float: right;
-}
-
-.container1 h2 {
-    font-size: 60px;
-    font-family: Georgia;
-}
-
-.container1 {
-    margin-bottom: 20px;
 }
 
 #myCarousel {

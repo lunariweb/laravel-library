@@ -425,6 +425,87 @@
 
     {{-- end comics --}}
 
+    {{-- start adventure  --}}
+
+    <!--- box 19------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">Golden</div>
+        <img src="{{asset('storage/covers/56-250x350.jpg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://www.pdfbooksworld.com/bibi/pre.html?book=56.epub">
+      Treasure Island
+
+    </a>
+
+    </div>
+
+    <!--- box 20------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">Mark Twain</div>
+        <img src="{{asset('storage/covers/63-250x350.jpg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://www.pdfbooksworld.com/bibi/pre.html?book=63.epub">
+      Adventures of Huckleberry Finn
+    </a>
+    </div>
+
+    <!--- box 21------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">Alexandre</div>
+        <img src="{{asset('storage/covers/71-250x350.jpg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://www.pdfbooksworld.com/bibi/pre.html?book=71.epub">
+      The Count of Monte Cristo
+    </a>
+    </div>
+
+    <!--- box 22------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">Alexandre</div>
+        <img src="{{asset('storage/covers/78-250x350.jpg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://www.pdfbooksworld.com/bibi/pre.html?book=78.epub">
+      The Three Musketeers
+    </a>
+    </div>
+
+
+    <!--- box 23------------------------>
+    <div class="books-box"> <!--- change this to books-box later----------------------------------------->
+      <!-- book image----------------------->
+      <div class="books-img"><!--- change this to books-img------------------------>
+        <div class="quality">Conan Doyle</div>
+        <img src="{{asset('storage/covers/69-250x350.jpg')}}">
+
+      </div>
+
+    <!--- text ------------------------------------------------------------>
+    <a href="https://www.pdfbooksworld.com/bibi/pre.html?book=69.epub">
+      The Memoirs of Sherlock Holmes
+    </a>
+    </div>
+    {{-- end adventure --}}
+
 
 
 
@@ -432,13 +513,7 @@
 
     </section>
 
-  <!--- Buttons on the bottom of the browse page---------------------->
-  <div class="btns">
-    <a href="#">Previous</a>
-    <a href="#">Next</a>
-
-  </div>
-
+  
 
 
 

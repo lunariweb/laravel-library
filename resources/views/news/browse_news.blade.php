@@ -94,7 +94,6 @@
     </div>
 
 
-
     {{-- row 1  --}}
     <div class="all-news">
       <div class="news">
