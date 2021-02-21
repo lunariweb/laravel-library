@@ -6,7 +6,7 @@
     <script>
         function initFreshChat() {
           window.fcWidget.init({
-            token: "9d7688fe-86fa-4025-ab5f-de6c1f6addbf",
+            token: "e225117c-4e63-4e04-a322-b88c383e142b",
             host: "https://wchat.freshchat.com"
           });
         }

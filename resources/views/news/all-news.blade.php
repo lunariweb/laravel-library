@@ -3,15 +3,15 @@
  <head>
   <title>Search News</title>
   {{-- live chat --}}
-  {{-- <script>
+  <script>
     function initFreshChat() {
       window.fcWidget.init({
-        token: "9d7688fe-86fa-4025-ab5f-de6c1f6addbf",
+        token: "e225117c-4e63-4e04-a322-b88c383e142b",
         host: "https://wchat.freshchat.com"
       });
     }
     function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
-  </script> --}}
+  </script>
 
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
