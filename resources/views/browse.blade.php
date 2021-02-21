@@ -17,12 +17,12 @@
       }
       function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
     </script>
-    <!--- meta lines to make the programm resposive------------------->
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    
+    
     <!--- --------------------------------------------------------------------------------------->
 
 
-    <meta charset="utf-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSRF Token -->
@@ -32,18 +32,12 @@
 
     <title>Browse</title>
 
-
-
-
-
-
-
     <link rel="stylesheet" type="text/css" href="{{asset('/css/style6.css')}}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
 
 
 
-    <!-- java scrpit jQuery link--------------------->
+   
 
 </head>
 
@@ -51,22 +45,15 @@
 
     <!-- navigation of the library (not the main navigation ---->
 
+    <style>
+      .menu {
+        margin-left: 350px;
+      }
+    </style>
+
     <nav>
         
-        <a href="#" class="logo">
-          {{-- <img src="#" alt=""> --}}
-        </a>
-
-        <!--- Button at the menu---------------------------------------------------->
-        <!--<input type="checkbox" class="menu-btn" id="menu-btn"/>    optional----------------->
-      <!--  <label class="menu-icon" for="menu-btn"> ------------>
-        <!--  <span class="nav-icon"></span> ----------->
-      <!--- </label>-------------------->
-
-
-
-        <!-- menu of the library browser --->
-<!--- - to be completed in sprint 3----------------------------------------------------->
+    
         <ul class="menu">
           <li><h1>All Books</h1></li>
           <li><a href="#" class="all">All</a></li>
@@ -511,6 +498,10 @@
 
     </section>
 
+    <footer>
+      <p>Online Library, A Project Of SLTC</p>
+      <p>Copyright 2020 - Team Dominators (SLTC)</p>
+    </footer>
   
 
 
