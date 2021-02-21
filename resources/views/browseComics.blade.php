@@ -68,6 +68,7 @@
         <!-- menu of the library browser --->
 <!--- - to be completed in sprint 3----------------------------------------------------->
         <ul class="menu">
+          <li><h1>Comics</h1></li>
           <li><a href="{{route('user-browse')}}" class="all">All</a></li>
           <li><a href="{{route('user-browse-fantasy')}}">Fantasy</a></li>
           <li><a href="{{route('user-browse-novels')}}">Novels</a></li>
@@ -88,12 +89,7 @@
 
 
 
-    <!--- Books----------------------------------------------------------------->
-    <div class="books-heading"> <!--- change this to books later------------------------------------>
-      <h2>Books</h2>
-
-    </div>
-
+    
     <section id="books-list"> <!--- change this to books list later--------------------------------------->
       {{-- start comics --}}
 
@@ -147,7 +143,6 @@
     </a>
 
     </div>
-
 
     <!--- box 19------------------------>
     <div class="books-box"> <!--- change this to books-box later----------------------------------------->

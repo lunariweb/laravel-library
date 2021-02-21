@@ -51,10 +51,18 @@ nav .menu li a {
     letter-spacing: 10px;
 }
 
+nav .menu li > h1 {
+    color: black;
+    padding-top: 7px;
+    margin-right: 10px;
+    text-align: left;
+    padding-right: 20px;
+}
+
 .search {
     width: 250px;
     height: 30px;
-    background-color: #2E86C1;
+    background-color: #2e86c1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,19 +115,7 @@ nav .menu li a:hover {
     padding-left: 250px;
 }
 
-
 /*---------------------------------------------------------------------*/
-
-.books-heading h2 {
-    margin: 0px;
-    padding: 5px 20px;
-    background-color: rgba(0, 0, 0, 0.01);
-    border: 1px solid rgba(0, 0, 0, 0.06);
-    font-size: 1.7rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    width: 100%;
-}
 
 .books-heading {
     display: flex;
@@ -226,10 +222,6 @@ footer p {
     font-size: 0.9rem;
 }
 
-
 /* making the page resposive-----------------------------------------------------------------------------------*/
-
-
-
 
 /*---------------------------------------------------------------------------------------------------------*/

@@ -52,7 +52,7 @@
     <!-- navigation of the library (not the main navigation ---->
 
     <nav>
-        <h1>All</h1>
+        
         <a href="#" class="logo">
           {{-- <img src="#" alt=""> --}}
         </a>
@@ -68,6 +68,7 @@
         <!-- menu of the library browser --->
 <!--- - to be completed in sprint 3----------------------------------------------------->
         <ul class="menu">
+          <li><h1>All Books</h1></li>
           <li><a href="#" class="all">All</a></li>
           <li><a href="{{route('user-browse-fantasy')}}">Fantasy</a></li>
           <li><a href="{{route('user-browse-novels')}}">Novels</a></li>
@@ -88,14 +89,11 @@
 
 
 
-    <!--- Books----------------------------------------------------------------->
-    <div class="books-heading"> <!--- change this to books later------------------------------------>
-      <h2>Books</h2>
-
-    </div>
+    
 
     <section id="books-list"> <!--- change this to books list later--------------------------------------->
 
+      
 
       {{-- category fantasy --}}
       <!--- box 1------------------------>
