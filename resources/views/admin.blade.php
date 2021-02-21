@@ -96,7 +96,7 @@
         </div>
         <div class="block-text">
 
-            <h2>{{ $num_admins->count() }}/10</h2>
+            <h2>{{ $num_admins->count() }}/20</h2>
 
 
 
