@@ -55,7 +55,7 @@
                     <div class="carousel-caption">
                         <h3>Trump again calls for $2,000 checks as Covid aid bill remains in flux</h3>
                         <p>BBC</p>
-                        <a href="/browsenews/19/news" class="btn btn-primary">Read More</a> {{-- man damme --}}
+                        <a href="/browsenews/19/news" class="btn btn-primary">Read More</a> {{-- * --}}
                     </div>
                 </div>
 
